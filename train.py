@@ -2,11 +2,13 @@
 
 import torch
 from torch.utils.data import DataLoader, RandomSampler, SequentialSampler
-from transformers import AutoTokenizer, AdamW, get_linear_schedule_with_warmup
+from transformers import AutoTokenizer, get_linear_schedule_with_warmup
+import torch.optim as optim
 import numpy as np
 import random
 import os
 from tqdm import tqdm
+import torch.optim as optim
 
 import src.config as config
 from src.utils import generate_label_maps, WeightedCELoss # Add FocalLoss if using
@@ -86,7 +88,7 @@ def train():
         {'params': [p for n, p in trigger_model.named_parameters() if any(nd in n for nd in no_decay) and "crf" not in n and "classifier" not in n], 'weight_decay': 0.0, 'lr': config.LEARNING_RATE},
         {'params': [p for n, p in trigger_model.named_parameters() if "classifier" in n or "crf" in n], 'lr': config.LEARNING_RATE * config.CRF_LR_MULTIPLIER},
     ]
-    optimizer_trigger = AdamW(optimizer_grouped_parameters_trigger, eps=config.ADAM_EPSILON)
+    optimizer_trigger = optim.AdamW(optimizer_grouped_parameters_trigger, eps=config.ADAM_EPSILON)
     scheduler_trigger = get_linear_schedule_with_warmup(optimizer_trigger, num_warmup_steps=config.WARMUP_STEPS, num_training_steps=len(train_trigger_dataloader) * config.NUM_EPOCHS)
 
     optimizer_grouped_parameters_argument = [
@@ -94,7 +96,7 @@ def train():
         {'params': [p for n, p in argument_model.named_parameters() if any(nd in n for nd in no_decay) and "crf" not in n and "classifier" not in n], 'weight_decay': 0.0, 'lr': config.LEARNING_RATE},
         {'params': [p for n, p in argument_model.named_parameters() if "classifier" in n or "crf" in n], 'lr': config.LEARNING_RATE * config.CRF_LR_MULTIPLIER},
     ]
-    optimizer_argument = AdamW(optimizer_grouped_parameters_argument, eps=config.ADAM_EPSILON)
+    optimizer_argument = optim.AdamW(optimizer_grouped_parameters_argument, eps=config.ADAM_EPSILON)
     scheduler_argument = get_linear_schedule_with_warmup(optimizer_argument, num_warmup_steps=config.WARMUP_STEPS, num_training_steps=len(train_argument_dataloader) * config.NUM_EPOCHS)
 
 
