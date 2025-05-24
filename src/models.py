@@ -7,7 +7,7 @@ from torchcrf import CRF # You'll need to install this: pip install pytorch-crf
 from typing import Optional, Dict
 
 import src.config as config
-from src.utils import WeightedCELoss # Or import FocalLoss if enabled
+from .utils import WeightedCELoss # Or import FocalLoss if enabled
 
 class HistoryAwareModel(nn.Module):
     """
