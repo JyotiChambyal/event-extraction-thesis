@@ -1,0 +1,106 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please see attached', 'indices': '2 3 4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Kay",
+            ",",
+            "Please",
+            "see",
+            "attached",
+            ".",
+            "<",
+            "<",
+            "File",
+            ":",
+            "EnergySolutionsDATA.DOC",
+            ">",
+            ">"
+        ],
+        [
+            "Hi",
+            "Gerald",
+            "-",
+            "Nothing",
+            "with",
+            "or",
+            "pertaining",
+            "to",
+            "Energy",
+            "Solutions",
+            "Gas",
+            "USA",
+            "Inc.",
+            "to",
+            "the",
+            "best",
+            "of",
+            "my",
+            "knowledge",
+            ".",
+            "Kay"
+        ]
+    ]
+}

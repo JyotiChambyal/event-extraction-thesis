@@ -1,0 +1,120 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:B-Action Date",
+                        "Request_Action:I-Action Date",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'please complete', 'indices': '10 11'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "I",
+            "apologize",
+            ",",
+            "please",
+            "disregard",
+            "the",
+            "PEP",
+            "related",
+            "message",
+            ",",
+            "should",
+            "have",
+            "been",
+            "sent",
+            "to",
+            "my",
+            "IT",
+            "group",
+            ".",
+            "-Colin"
+        ],
+        [
+            "Colin",
+            "is",
+            "right",
+            ",",
+            "the",
+            "deadline",
+            "is",
+            "approaching",
+            "quickly",
+            ",",
+            "please",
+            "complete",
+            "your",
+            "reviews",
+            "including",
+            "your",
+            "self-evaluation",
+            "by",
+            "Friday",
+            ".",
+            "Chris"
+        ]
+    ]
+}

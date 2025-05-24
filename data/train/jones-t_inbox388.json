@@ -1,0 +1,112 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "Request_Action_Data:Context: B-Request Members",
+                        "Request_Action_Data:Context: I-Request Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'How soon will this be processed', 'indices': '4 5 6 7 8 9'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Time"
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will get', 'indices': '1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Miss",
+            "Tana",
+            "--",
+            "-",
+            "How",
+            "soon",
+            "will",
+            "this",
+            "be",
+            "processed",
+            "?",
+            "Thanks",
+            ",",
+            "Griff"
+        ],
+        [
+            "I",
+            "will",
+            "get",
+            "them",
+            "done",
+            "today",
+            "."
+        ],
+        [
+            "thanks",
+            "--",
+            "-",
+            "have",
+            "a",
+            "terrific",
+            "weekend",
+            "!"
+        ]
+    ]
+}

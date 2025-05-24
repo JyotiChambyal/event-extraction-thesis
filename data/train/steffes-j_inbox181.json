@@ -1,0 +1,166 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please confirm', 'indices': '10 11'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "It",
+            "appears",
+            "that",
+            "EESI",
+            "and",
+            "EPMI",
+            "were",
+            "mixed",
+            "up",
+            ".",
+            "Please",
+            "confirm",
+            ".",
+            "Alson",
+            "it",
+            "appears",
+            "no",
+            "payment",
+            "is",
+            "required",
+            "tomorrow",
+            ".",
+            "Since",
+            "this",
+            "is",
+            "the",
+            "first",
+            "time",
+            "we",
+            "received",
+            "this",
+            "form",
+            "I",
+            "just",
+            "wanted",
+            "to",
+            "confirm",
+            ".",
+            "Thanks",
+            "Wade",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "Sent",
+            "from",
+            "my",
+            "BlackBerry",
+            "Wireless",
+            "Handheld",
+            "(",
+            "www.BlackBerry.net",
+            ")"
+        ]
+    ]
+}

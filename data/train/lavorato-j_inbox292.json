@@ -1,0 +1,184 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'East Power', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'lavo +2000', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "East",
+            "Power",
+            "(",
+            "500",
+            ")",
+            "West",
+            "Power",
+            "50",
+            "Canada",
+            "100",
+            "Central",
+            "(",
+            "1000",
+            ")",
+            "East",
+            "(",
+            "1600",
+            ")",
+            "West",
+            "(",
+            "380",
+            ")",
+            "Texas",
+            "(",
+            "300",
+            ")",
+            "Lavo",
+            "2000",
+            "Fin",
+            "2500",
+            "Dec.",
+            "-",
+            "Mar",
+            ".",
+            "3650",
+            "Cal",
+            "2",
+            "&",
+            "Cal",
+            "3",
+            "total",
+            "4,520",
+            "PS",
+            ".",
+            "Arnold",
+            "'s",
+            "EOL",
+            "died",
+            "on",
+            "him",
+            ".",
+            "Not",
+            "good"
+        ],
+        [
+            "lavo",
+            "+2000",
+            "net",
+            "6520"
+        ],
+        [
+            "You",
+            "want",
+            "to",
+            "see",
+            "perf",
+            "reports",
+            "now",
+            "?"
+        ]
+    ]
+}

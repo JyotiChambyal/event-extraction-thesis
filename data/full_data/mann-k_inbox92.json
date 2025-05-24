@@ -1,0 +1,208 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"'ll give\", 'indices': '1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'wolfing', 'indices': '2'}",
+                    "{'words': 'will be over', 'indices': '7 8 9'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'go over', 'indices': '21 22'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "I",
+            "'ll",
+            "give",
+            "you",
+            "$",
+            "5",
+            "to",
+            "help",
+            "me",
+            "finish",
+            "up",
+            "MDEA",
+            ".",
+            "Do",
+            "n't",
+            "make",
+            "me",
+            "beg",
+            "."
+        ],
+        [
+            "I",
+            "'m",
+            "wolfing",
+            "down",
+            "some",
+            "pasta",
+            "and",
+            "will",
+            "be",
+            "over",
+            "as",
+            "soon",
+            "as",
+            "I",
+            "get",
+            "through",
+            ".",
+            "Do",
+            "you",
+            "want",
+            "to",
+            "go",
+            "over",
+            "the",
+            "stuff",
+            "with",
+            "me",
+            "?",
+            "Kathleen"
+        ]
+    ]
+}

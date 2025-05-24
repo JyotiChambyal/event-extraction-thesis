@@ -1,0 +1,200 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"'ll check\", 'indices': '3 4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'let me know', 'indices': '19 20 21'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "If",
+            "you",
+            "want",
+            ",",
+            "you",
+            "can",
+            "have",
+            "Dave",
+            "Woodstrom",
+            "do",
+            "the",
+            "query",
+            "for",
+            "you",
+            "since",
+            "he",
+            "should",
+            "now",
+            "have",
+            "access",
+            "with",
+            "that",
+            "ID",
+            "."
+        ],
+        [
+            "thanks",
+            ".",
+            "i",
+            "'ll",
+            "check",
+            "with",
+            "david",
+            "w",
+            ".",
+            "chris",
+            ":",
+            "just",
+            "keeping",
+            "you",
+            "in",
+            "the",
+            "loop",
+            "...",
+            "matt",
+            "let",
+            "me",
+            "know",
+            "that",
+            "we",
+            "should",
+            "be",
+            "able",
+            "to",
+            "pull",
+            "those",
+            "loads",
+            "now",
+            ".",
+            "bart"
+        ]
+    ]
+}

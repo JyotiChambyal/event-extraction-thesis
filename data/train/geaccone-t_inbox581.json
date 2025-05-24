@@ -1,0 +1,172 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached file', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'sent', 'indices': '2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'How soon can you add', 'indices': '0 1 2 3 4'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Time"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "find",
+            "attached",
+            "file",
+            ".",
+            "No",
+            "major",
+            "individual",
+            "(",
+            "$",
+            "5.0",
+            "MM",
+            "or",
+            "greater",
+            ")",
+            "receipts",
+            "or",
+            "disbursements",
+            "anticipated",
+            "over",
+            "the",
+            "last",
+            "four",
+            "days",
+            "this",
+            "month",
+            ".",
+            "<",
+            "<",
+            "File",
+            ":",
+            "NNG",
+            "&",
+            "TWDAY01.xls",
+            ">",
+            ">"
+        ],
+        [
+            "FYI",
+            "we",
+            "sent",
+            "this",
+            "to",
+            "treasury",
+            "at",
+            "their",
+            "request",
+            "."
+        ],
+        [
+            "How",
+            "soon",
+            "can",
+            "you",
+            "add",
+            "things",
+            "like",
+            "payroll",
+            "to",
+            "the",
+            "picture",
+            "?",
+            "."
+        ]
+    ]
+}

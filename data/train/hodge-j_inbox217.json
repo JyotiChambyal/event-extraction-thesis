@@ -1,0 +1,120 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'cancelled', 'indices': '9'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Deliver Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "Deliver_Meeting_Data:I-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Spoke', 'indices': '2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Frank",
+            ",",
+            "Spoke",
+            "to",
+            "Joann",
+            "Collins",
+            "just",
+            "now",
+            "and",
+            "cancelled",
+            "the",
+            "5,000",
+            "DTH",
+            "'s",
+            "of",
+            "gas",
+            "that",
+            "we",
+            "had",
+            "ordered",
+            ".",
+            "Paula"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

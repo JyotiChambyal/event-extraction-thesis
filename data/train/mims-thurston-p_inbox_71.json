@@ -1,0 +1,70 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'file :', 'indices': '8 9'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "<",
+            "<",
+            "untitled1.bmp",
+            ">",
+            ">",
+            "(",
+            "See",
+            "attached",
+            "file",
+            ":",
+            "untitled1.bmp",
+            ")",
+            "-",
+            "untitled1.bmp"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

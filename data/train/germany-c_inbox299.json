@@ -1,0 +1,184 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "Request_Meeting:B-Request Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Time",
+                        "Request_Meeting:I-Request Time",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "Request_Meeting:I-Meeting Members",
+                        "O",
+                        "Request_Meeting:B-Meeting Time",
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'please schedule a room for a 1/2 hour presentation', 'indices': '6 7 8 9 10 11 12 13 14'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'please forward', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Scott",
+            ",",
+            "Per",
+            "our",
+            "conversation",
+            ",",
+            "please",
+            "schedule",
+            "a",
+            "room",
+            "for",
+            "a",
+            "1/2",
+            "hour",
+            "presentation",
+            "to",
+            "your",
+            "group",
+            "at",
+            "3pm",
+            "on",
+            "Monday",
+            ",",
+            "Nov.",
+            "19",
+            ".",
+            "We",
+            "will",
+            "cover",
+            "the",
+            "current",
+            "status",
+            "of",
+            "the",
+            "weather",
+            "market",
+            ",",
+            "our",
+            "current",
+            "product",
+            "offerings",
+            ",",
+            "target",
+            "customers",
+            ",",
+            "and",
+            "other",
+            "opportunities",
+            ".",
+            "See",
+            "you",
+            "then",
+            ".",
+            "Gary",
+            "x31511"
+        ],
+        [
+            "please",
+            "forward",
+            "to",
+            "all",
+            "East",
+            "traders",
+            "and",
+            "originators"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

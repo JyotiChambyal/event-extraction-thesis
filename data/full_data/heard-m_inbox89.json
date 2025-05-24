@@ -1,0 +1,76 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Thanks",
+            "for",
+            "the",
+            "treat",
+            "this",
+            "afternoon",
+            ".",
+            "We",
+            "appreciate",
+            "it",
+            "!"
+        ],
+        [
+            "We",
+            "appreciate",
+            "all",
+            "Credit",
+            "does",
+            "for",
+            "us",
+            "!"
+        ]
+    ]
+}

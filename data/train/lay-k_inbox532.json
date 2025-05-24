@@ -1,0 +1,120 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Place these', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'these dates', 'indices': '1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Place",
+            "these",
+            "dates",
+            "on",
+            "your",
+            "calendar",
+            "now",
+            "so",
+            "you",
+            "wo",
+            "n't",
+            "miss",
+            "out",
+            "on",
+            "some",
+            "wonderful",
+            "opportunities",
+            ".",
+            "-",
+            "Fall",
+            "Club",
+            "Calendar.doc"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

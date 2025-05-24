@@ -1,0 +1,124 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'unwound', 'indices': '9'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "spinnaker",
+            ",",
+            "one",
+            "of",
+            "fred",
+            "'s",
+            "customer",
+            "'s",
+            ",",
+            "unwound",
+            "a",
+            "hedge",
+            "today",
+            "because",
+            "they",
+            "dont",
+            "want",
+            "exposure",
+            "to",
+            "us",
+            "."
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "I",
+            "hope",
+            "we",
+            "did",
+            "n't",
+            "pay",
+            "them",
+            "on",
+            "the",
+            "unwind",
+            "!",
+            "!"
+        ]
+    ]
+}

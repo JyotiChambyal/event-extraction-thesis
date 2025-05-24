@@ -1,0 +1,290 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"Here 's NP 's deals\", 'indices': '0 1 2 3 4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please ck', 'indices': '29 30'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'do you have sitara # s ?', 'indices': '47 48 49 50 51 52 53'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "Here",
+            "'s",
+            "NP",
+            "'s",
+            "deals",
+            "for",
+            "Dec",
+            "6-31",
+            ".",
+            "These",
+            "are",
+            "the",
+            "deals",
+            "they",
+            "think",
+            "we",
+            "owed",
+            "them",
+            "that",
+            "we",
+            "do",
+            "n't",
+            "seem",
+            "to",
+            "show",
+            "in",
+            "our",
+            "system",
+            ".",
+            "Please",
+            "ck",
+            "to",
+            "see",
+            "if",
+            "these",
+            "look",
+            "like",
+            "good",
+            "deals",
+            "to",
+            "you",
+            ",",
+            "and",
+            "if",
+            "they",
+            "are",
+            ",",
+            "do",
+            "you",
+            "have",
+            "sitara",
+            "#",
+            "s",
+            "?",
+            "Thanks",
+            "Darla"
+        ]
+    ]
+}

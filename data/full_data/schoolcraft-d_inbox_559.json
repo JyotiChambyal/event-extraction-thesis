@@ -1,0 +1,322 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'requested', 'indices': '10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'contract # is', 'indices': '41 42 43'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will they send', 'indices': '11 12 13'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            },
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Is this an official request', 'indices': '0 1 2 3 4'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'waiting', 'indices': '5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "During",
+            "the",
+            "Crawford",
+            "outage",
+            "scheduled",
+            "for",
+            "3/5-7",
+            ",",
+            "Duke",
+            "has",
+            "requested",
+            "to",
+            "move",
+            "its",
+            "primary",
+            "receipt",
+            "point",
+            "from",
+            "Crawford",
+            "to",
+            "the",
+            "Duke",
+            "WT-1",
+            "receipt",
+            "point",
+            ".",
+            "Since",
+            "there",
+            "will",
+            "be",
+            "no",
+            "flows",
+            "from",
+            "Crawford",
+            "I",
+            "think",
+            "this",
+            "should",
+            "work",
+            ".",
+            "The",
+            "contract",
+            "#",
+            "is",
+            "27579",
+            "with",
+            "an",
+            "MDQ",
+            "of",
+            "20,000/d",
+            ".",
+            "Thanks",
+            ".",
+            "Lorraine"
+        ],
+        [
+            "Is",
+            "this",
+            "an",
+            "official",
+            "request",
+            "to",
+            "amend",
+            "their",
+            "contract",
+            ",",
+            "or",
+            "will",
+            "they",
+            "send",
+            "that",
+            "later",
+            "?",
+            "Dennis"
+        ],
+        [
+            "Yes",
+            ",",
+            "but",
+            "we",
+            "are",
+            "waiting",
+            "to",
+            "hear",
+            "from",
+            "Darrell",
+            "on",
+            "this",
+            "one",
+            "."
+        ]
+    ]
+}

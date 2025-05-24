@@ -1,0 +1,148 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'this details', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "John",
+            ",",
+            "this",
+            "details",
+            "the",
+            "agreed",
+            "upon",
+            "prepaid",
+            "transactions",
+            "to",
+            "satisfy",
+            "STSW",
+            "in",
+            "the",
+            "money",
+            "positions",
+            ".",
+            "If",
+            "you",
+            "have",
+            "any",
+            "questions",
+            "please",
+            "contact",
+            "myself",
+            "or",
+            "Tom",
+            "Alonso",
+            "."
+        ],
+        [
+            "In",
+            "answer",
+            "to",
+            "your",
+            "question",
+            ",",
+            "it",
+            "is",
+            "a",
+            "prepay",
+            ".",
+            "I",
+            "am",
+            "sure",
+            "there",
+            "are",
+            "more",
+            "deals",
+            "than",
+            "what",
+            "is",
+            "showing",
+            "on",
+            "this",
+            "list",
+            "."
+        ]
+    ]
+}

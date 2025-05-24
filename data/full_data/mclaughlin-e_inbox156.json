@@ -1,0 +1,208 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': '< < File : EBOYTForwards.xls > >', 'indices': '0 1 2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 're-run', 'indices': '23'}",
+                    "{'words': 'send', 'indices': '25'}"
+                ],
+                "extras": [
+                    "",
+                    ""
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'missing', 'indices': '9'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "<",
+            "<",
+            "File",
+            ":",
+            "EBOYTForwards.xls",
+            ">",
+            ">"
+        ],
+        [
+            "Thanks",
+            "man",
+            ",",
+            "however",
+            ",",
+            "I",
+            "think",
+            "we",
+            "are",
+            "missing",
+            "leg",
+            "9",
+            ",",
+            "B",
+            ",",
+            "C",
+            "on",
+            "the",
+            "JP",
+            "swaps",
+            ".",
+            "Could",
+            "you",
+            "re-run",
+            "and",
+            "send",
+            "back",
+            "?",
+            "I",
+            "would",
+            "really",
+            "appreciate",
+            "it",
+            ".",
+            "Eric"
+        ]
+    ]
+}

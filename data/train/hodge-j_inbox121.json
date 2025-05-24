@@ -1,0 +1,80 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Approved', 'indices': '0'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'done', 'indices': '0'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Approved",
+            "for",
+            "20,000dth",
+            "over",
+            "MDIQ",
+            "for",
+            "5/23/01",
+            "&",
+            "5/24/01",
+            ".",
+            "w/Mark",
+            "Johnson",
+            "(",
+            "5/23/01",
+            "@",
+            "10:21am",
+            ")",
+            "tks",
+            "joann"
+        ],
+        [
+            "done",
+            "...."
+        ]
+    ]
+}

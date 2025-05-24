@@ -1,0 +1,126 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please see attached', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "see",
+            "attached",
+            ".",
+            "<",
+            "<",
+            "File",
+            ":",
+            "EOL",
+            "11-15-01.xls",
+            ">",
+            ">",
+            "Regards",
+            ",",
+            "Wendi",
+            "LeBrocq",
+            "3-3835"
+        ],
+        [
+            "Hello",
+            ",",
+            "There",
+            "are",
+            "no",
+            "GCP",
+            "Adjustments",
+            ".",
+            "Please",
+            "feel",
+            "free",
+            "to",
+            "give",
+            "me",
+            "a",
+            "call",
+            ",",
+            "if",
+            "you",
+            "have",
+            "any",
+            "questions",
+            ".",
+            "Amber",
+            "N",
+            "Ebow",
+            "x5-8331"
+        ]
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "Request_Action_Data:Context: B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"what progress you 're making\", 'indices': '7 8 9 10 11'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "David",
+            ",",
+            "Just",
+            "a",
+            "follow",
+            "up",
+            "on",
+            "what",
+            "progress",
+            "you",
+            "'re",
+            "making",
+            "w/",
+            "respect",
+            "to",
+            "sending",
+            "us",
+            "the",
+            "Duffie",
+            "and",
+            "Arthur",
+            "Anderson",
+            "reviews",
+            ".",
+            "As",
+            "you",
+            "know",
+            ",",
+            "we",
+            "feel",
+            "these",
+            "are",
+            "important",
+            "workpapers",
+            "to",
+            "see",
+            "ASAP",
+            ".",
+            "Thanks",
+            ",",
+            "Dave"
+        ],
+        [
+            "Vince",
+            "Have",
+            "you",
+            "had",
+            "any",
+            "luck",
+            "yet",
+            "with",
+            "these",
+            "?",
+            "Rgds",
+            "DP"
+        ]
+    ]
+}

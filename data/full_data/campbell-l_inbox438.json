@@ -1,0 +1,146 @@
+{
+    "events": {
+        "turn_0": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Members",
+                        "Amend_Meeting_Data:Context: I-Meeting Members",
+                        "Amend_Meeting_Data:Context: I-Meeting Members",
+                        "Amend_Meeting_Data:Context: I-Meeting Members",
+                        "Amend_Meeting_Data:Context: I-Meeting Members",
+                        "Amend_Meeting_Data:Context: I-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Time",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'the dial in number was incorrect . The correct number is', 'indices': '18 19 20 21 32 33 34 35 36 37 38'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "today",
+            ",",
+            "correct",
+            "Dial",
+            "In",
+            "Number",
+            "Dear",
+            "Members",
+            "of",
+            "the",
+            "ICAP",
+            "Working",
+            "Group",
+            ":",
+            "Please",
+            "be",
+            "advised",
+            "that",
+            "the",
+            "dial",
+            "in",
+            "number",
+            "for",
+            "today",
+            "'s",
+            "ICAP",
+            "working",
+            "group",
+            "meeting",
+            "on",
+            "the",
+            "calendar",
+            "was",
+            "incorrect",
+            ".",
+            "The",
+            "correct",
+            "number",
+            "is",
+            ":",
+            "Dial",
+            "In",
+            "Number",
+            ":",
+            "608-250-9281",
+            "Participant",
+            "Code",
+            ":",
+            "648400",
+            "Monica",
+            "Ryan-Taber",
+            "518-356-6222"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

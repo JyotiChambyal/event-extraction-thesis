@@ -1,0 +1,88 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'My comments and notes are red-lined in the attachment', 'indices': '2 3 4 5 6 7 8 9 10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'made several revisions', 'indices': '5 6 7'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Nancy",
+            ",",
+            "My",
+            "comments",
+            "and",
+            "notes",
+            "are",
+            "red-lined",
+            "in",
+            "the",
+            "attachment",
+            ".",
+            "Thanks",
+            ",",
+            "Theresa"
+        ],
+        [
+            "Teb",
+            ",",
+            "FYI",
+            "--",
+            "I",
+            "made",
+            "several",
+            "revisions",
+            ".",
+            "Theresa"
+        ]
+    ]
+}

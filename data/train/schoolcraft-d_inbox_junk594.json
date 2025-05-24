@@ -1,0 +1,152 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'File :', 'indices': '6 7'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'the time table you have for this outage is', 'indices': '2 3 4 5 6 7 8 9 10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Attachment",
+            "Thanks",
+            "Randy",
+            "Peschka",
+            "<",
+            "<",
+            "File",
+            ":",
+            "31exhaustheader.doc",
+            ">",
+            ">"
+        ],
+        [
+            "Randy",
+            ",",
+            "the",
+            "time",
+            "table",
+            "you",
+            "have",
+            "for",
+            "this",
+            "outage",
+            "is",
+            "02/26",
+            "to",
+            "02/28",
+            "to",
+            "replace",
+            "a",
+            "section",
+            "of",
+            "the",
+            "exhaust",
+            "header",
+            ".",
+            "If",
+            "we",
+            "have",
+            "cold",
+            "temps",
+            "the",
+            "first",
+            "part",
+            "of",
+            "the",
+            "week",
+            ",",
+            "can",
+            "this",
+            "outage",
+            "be",
+            "pushed",
+            "back",
+            "a",
+            "few",
+            "days",
+            "?",
+            "Jerry"
+        ]
+    ]
+}

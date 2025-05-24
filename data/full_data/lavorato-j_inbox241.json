@@ -1,0 +1,121 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'went', 'indices': '1'}",
+                    "{'words': 'noticed', 'indices': '6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'is our', 'indices': '4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "We",
+            "went",
+            "into",
+            "ICE",
+            "today",
+            "and",
+            "noticed",
+            "that",
+            "Enron",
+            "has",
+            "us",
+            "closed",
+            "for",
+            "financial",
+            "and",
+            "physical",
+            "trading",
+            ".",
+            "JB"
+        ],
+        [
+            "FYI",
+            ".",
+            "Jerry",
+            "Burt",
+            "is",
+            "our",
+            "Credit",
+            "Manager",
+            ".",
+            "Thanks",
+            "jds"
+        ]
+    ]
+}

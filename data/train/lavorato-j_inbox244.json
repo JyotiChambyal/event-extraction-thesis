@@ -1,0 +1,177 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'NFL Bets.xls', 'indices': '17 18'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Try', 'indices': '2'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'tried', 'indices': '1'}",
+                    "{'words': 'went', 'indices': '10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "WEEK",
+            "7",
+            "Try",
+            "these",
+            "ones",
+            "on",
+            "for",
+            "size",
+            "...",
+            "let",
+            "the",
+            "losing",
+            "streak",
+            "continue",
+            ".",
+            "TIC",
+            "-",
+            "NFL",
+            "Bets.xls"
+        ],
+        [
+            "I",
+            "tried",
+            "to",
+            "send",
+            "this",
+            "to",
+            "you",
+            "earlier",
+            "....",
+            "I",
+            "went",
+            "1",
+            "-",
+            "5",
+            "in",
+            "the",
+            "first",
+            "6",
+            "games",
+            ".",
+            "Ouch",
+            "."
+        ]
+    ]
+}

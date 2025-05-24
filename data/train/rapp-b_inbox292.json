@@ -1,0 +1,100 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"will participate in tomorrow 's meeting\", 'indices': '5 6 7 8 9 10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will call', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Donna",
+            ",",
+            "Tony",
+            "and",
+            "I",
+            "will",
+            "participate",
+            "in",
+            "tomorrow",
+            "'s",
+            "meeting",
+            ".",
+            "We",
+            "will",
+            "be",
+            "in",
+            "my",
+            "office",
+            "(",
+            "extension",
+            "35269",
+            ")",
+            ".",
+            "Thanks",
+            "."
+        ],
+        [
+            "Great",
+            "-We",
+            "will",
+            "call",
+            "you",
+            "!"
+        ]
+    ]
+}

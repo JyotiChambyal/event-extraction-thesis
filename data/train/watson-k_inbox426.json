@@ -1,0 +1,207 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'need a copy of the Reimbursable Agreements', 'indices': '1 2 3 4 5 6 7'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please fax', 'indices': '24 25'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'furnish', 'indices': '3'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "We",
+            "need",
+            "a",
+            "copy",
+            "of",
+            "the",
+            "Reimbursable",
+            "Agreements",
+            "on",
+            "the",
+            "following",
+            "projects",
+            ":",
+            "Co.",
+            "0060",
+            "C.014668.01-Duke",
+            "WT1",
+            "I/C",
+            "and",
+            "Co.",
+            "0179",
+            "C.014673.01-Harvey",
+            "Thurmond",
+            "I/C",
+            "Please",
+            "fax",
+            "this",
+            "information",
+            "to",
+            "my",
+            "attention",
+            "@",
+            "713-646-8132",
+            ".",
+            "Rene",
+            "'",
+            "Bickerstaff"
+        ],
+        [
+            "Kim",
+            "Can",
+            "Marketing",
+            "furnish",
+            "the",
+            "agreement",
+            "for",
+            "this",
+            "project",
+            ".",
+            "I",
+            "'m",
+            "not",
+            "in",
+            "the",
+            "possession",
+            "of",
+            "one",
+            ".",
+            "Thanks",
+            "Earl",
+            "C",
+            "."
+        ]
+    ]
+}

@@ -1,0 +1,274 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached draft', 'indices': '7 8'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please review', 'indices': '17 18'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'add the flexible pricing', 'indices': '20 21 22 23'}"
+                ],
+                "extras": [
+                    "Amend Action : Add"
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Here is also the Fixed Price Exhibit', 'indices': '4 5 6 7 8 9 10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Gerald",
+            "and",
+            "Debra",
+            ",",
+            "Please",
+            "find",
+            "the",
+            "attached",
+            "draft",
+            "confirm",
+            "and",
+            "exhibit",
+            "for",
+            "Manti",
+            "Operating",
+            "Company",
+            ".",
+            "Please",
+            "review",
+            "and",
+            "add",
+            "the",
+            "flexible",
+            "pricing",
+            "language",
+            "which",
+            "Linda",
+            "discussed",
+            "at",
+            "the",
+            "meeting",
+            "today",
+            ".",
+            "Thanks",
+            ",",
+            "lisa",
+            "5",
+            "4766",
+            "<",
+            "<",
+            "File",
+            ":",
+            "mantioperating.doc",
+            ">",
+            ">"
+        ],
+        [
+            "Debra",
+            "&",
+            "Gerald",
+            ",",
+            "Here",
+            "is",
+            "also",
+            "the",
+            "Fixed",
+            "Price",
+            "Exhibit",
+            ":",
+            "Regards",
+            ",",
+            "Ellen",
+            "x54099"
+        ]
+    ]
+}

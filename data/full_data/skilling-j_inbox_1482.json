@@ -1,0 +1,162 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please cc', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "Please",
+            "cc",
+            "the",
+            "following",
+            "Lay",
+            ",",
+            "Kenneth",
+            ";",
+            "Williamson",
+            ",",
+            "Joannie",
+            ";",
+            "Patrick",
+            ",",
+            "Christie",
+            ";",
+            "'dgarvin",
+            "@",
+            "hsb.edu",
+            "'",
+            ";",
+            "'mroberto",
+            "@",
+            "hsb.edu",
+            "'",
+            ";",
+            "'jbower",
+            "@",
+            "hsb.edu",
+            "'",
+            ";",
+            "'llevesque",
+            "@",
+            "hsb.edu",
+            "'",
+            ";",
+            "Hamed",
+            ",",
+            "Malak",
+            "if",
+            "you",
+            "have",
+            "any",
+            "questions",
+            ",",
+            "please",
+            "call",
+            "me",
+            "mm",
+            "x31641"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

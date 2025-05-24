@@ -1,0 +1,146 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'make sure', 'indices': '1 2'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'any thoughts ?', 'indices': '7 8 9'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'panicing', 'indices': '3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Just",
+            "make",
+            "sure",
+            "you",
+            "work",
+            "with",
+            "Kevin",
+            "he",
+            "made",
+            "need",
+            "assistance",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "--",
+            "Sent",
+            "from",
+            "my",
+            "BlackBerry",
+            "Wireless",
+            "Handheld",
+            "(",
+            "www.BlackBerry.net",
+            ")"
+        ],
+        [
+            "ok.",
+            "everyone",
+            "is",
+            "panicing",
+            "around",
+            "here",
+            ".",
+            "any",
+            "thoughts",
+            "?"
+        ]
+    ]
+}

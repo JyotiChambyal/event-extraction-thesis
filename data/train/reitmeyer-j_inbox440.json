@@ -1,0 +1,324 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Can you get', 'indices': '10 11 12'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Done', 'indices': '0'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'try it', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"'ll have to call\", 'indices': '17 18 19 20'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'What does', 'indices': '6 7'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "I",
+            "do",
+            "not",
+            "have",
+            "permission",
+            "to",
+            "view",
+            "this",
+            "site",
+            ".",
+            "Can",
+            "you",
+            "get",
+            "me",
+            "set",
+            "up",
+            "so",
+            "that",
+            "I",
+            "can",
+            "view",
+            "it",
+            ".",
+            "Hope",
+            "you",
+            "are",
+            "having",
+            "a",
+            "good",
+            "day",
+            ".",
+            "Jeff",
+            "loves",
+            "his",
+            "job",
+            "and",
+            "is",
+            "doing",
+            "well",
+            ".",
+            "I",
+            "was",
+            "surprised",
+            "that",
+            "Jeff",
+            "Royed",
+            "left",
+            "but",
+            "am",
+            "not",
+            "shocked",
+            ".",
+            "Thanks",
+            ",",
+            "Jay"
+        ],
+        [
+            "Done",
+            ",",
+            "try",
+            "it",
+            "now",
+            ".",
+            "What",
+            "does",
+            "Jeff",
+            "think",
+            "about",
+            "this",
+            "whole",
+            "Dynegy",
+            "thing",
+            "?",
+            "I",
+            "'ll",
+            "have",
+            "to",
+            "call",
+            "him",
+            "one",
+            "of",
+            "these",
+            "days",
+            ".",
+            "KK"
+        ]
+    ]
+}

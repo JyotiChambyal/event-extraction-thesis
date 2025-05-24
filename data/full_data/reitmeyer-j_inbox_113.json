@@ -1,0 +1,181 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'got', 'indices': '10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'choosing', 'indices': '4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Revision: B-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'adjust our purchase', 'indices': '18 19 20'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Teresa",
+            "Sorry",
+            "this",
+            "is",
+            "so",
+            "late",
+            ",",
+            "but",
+            "I",
+            "just",
+            "got",
+            "the",
+            "information",
+            "to",
+            "send",
+            "this",
+            ".",
+            "Bill",
+            "Courtney"
+        ],
+        [
+            "FYI",
+            "-",
+            "Quantum",
+            "is",
+            "choosing",
+            "to",
+            "shut",
+            "in",
+            "their",
+            "production",
+            "for",
+            "the",
+            "month",
+            "of",
+            "October",
+            ".",
+            "I",
+            "'ll",
+            "adjust",
+            "our",
+            "purchase",
+            "volumes",
+            "down",
+            "by",
+            "the",
+            "800",
+            "MMBtu",
+            "/",
+            "day",
+            ".",
+            "Theresa"
+        ]
+    ]
+}

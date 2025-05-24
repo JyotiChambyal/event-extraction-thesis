@@ -1,0 +1,167 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'below is a list', 'indices': '2 3 4 5'}",
+                    "{'words': 'ph # is', 'indices': '17 18 19'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Do we need to do', 'indices': '0 1 2 3 4'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Deal",
+            "Numbers",
+            "by",
+            "trade",
+            "are",
+            "on",
+            "the",
+            "individual",
+            "tabs"
+        ],
+        [
+            "O'neal",
+            ",",
+            "below",
+            "is",
+            "a",
+            "list",
+            "of",
+            "trades",
+            "that",
+            "have",
+            "been",
+            "unwound",
+            "p/Russel",
+            "Dyk",
+            ".",
+            "Russell",
+            "'s",
+            "ph",
+            "#",
+            "is",
+            "212-715-2395",
+            ".",
+            "Thanks"
+        ],
+        [
+            "Do",
+            "we",
+            "need",
+            "to",
+            "do",
+            "anything",
+            "with",
+            "this",
+            "?",
+            "?",
+            "?"
+        ]
+    ]
+}

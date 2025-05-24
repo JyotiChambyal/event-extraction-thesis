@@ -1,0 +1,244 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'the following Lotus Notes folders', 'indices': '5 6 7 8 9'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'check', 'indices': '4'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Request members",
+                        "Request_Data:Context: I-Request Members",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Are these', 'indices': '3 4'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will receive', 'indices': '13 14'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Jan",
+            ",",
+            "Please",
+            ",",
+            "check",
+            "the",
+            "following",
+            "Lotus",
+            "Notes",
+            "folders",
+            "for",
+            "information",
+            "relevant",
+            "to",
+            "the",
+            "LJM",
+            "litigation",
+            ":",
+            "1",
+            ".",
+            "UntitledMartin",
+            "2",
+            ".",
+            "TRSWAPS",
+            "Vince",
+            "Kaminski"
+        ],
+        [
+            "Mr.",
+            "Kaminski",
+            ",",
+            "Are",
+            "these",
+            "the",
+            "folders",
+            "in",
+            "your",
+            "LotusNotes",
+            "that",
+            "we",
+            "should",
+            "have",
+            "burned",
+            "to",
+            "CD",
+            "'s",
+            "for",
+            "the",
+            "document",
+            "production",
+            "?"
+        ],
+        [
+            "Jan",
+            ",",
+            "Yes",
+            ",",
+            "if",
+            "this",
+            "is",
+            "the",
+            "procedure",
+            ".",
+            "Also",
+            ",",
+            "you",
+            "will",
+            "receive",
+            "tomorrow",
+            "hard",
+            "copies",
+            "of",
+            "the",
+            "documents",
+            "that",
+            "I",
+            "have",
+            "compiled",
+            ".",
+            "Vince"
+        ]
+    ]
+}

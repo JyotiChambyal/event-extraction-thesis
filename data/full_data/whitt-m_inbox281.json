@@ -1,0 +1,122 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Can you see', 'indices': '6 7 8'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'sent', 'indices': '9'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Resolution/Approval",
+            "for",
+            "User",
+            ":",
+            "MARK",
+            "WHITT",
+            "Can",
+            "you",
+            "see",
+            "what",
+            "this",
+            "is",
+            "and",
+            "how",
+            "we",
+            "approve",
+            "it",
+            "?",
+            "Thanks"
+        ],
+        [
+            "All",
+            "taken",
+            "care",
+            "of",
+            "--",
+            "this",
+            "invoice",
+            "notification",
+            "was",
+            "sent",
+            "to",
+            "you",
+            "by",
+            "mistake",
+            ".",
+            "It",
+            "does",
+            "n't",
+            "belong",
+            "to",
+            "our",
+            "group",
+            "."
+        ]
+    ]
+}

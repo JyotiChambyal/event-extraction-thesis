@@ -1,0 +1,102 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'count', 'indices': '6'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'what is his e-mail', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"cc 'd\", 'indices': '1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "to",
+            "go",
+            "fishing",
+            "too",
+            ",",
+            "so",
+            "count",
+            "him",
+            "in",
+            ".",
+            "Joe"
+        ],
+        [
+            "what",
+            "is",
+            "his",
+            "e-mail"
+        ],
+        [
+            "I",
+            "cc",
+            "'d",
+            "Joe",
+            "on",
+            "this",
+            "email",
+            ".",
+            "Joe"
+        ]
+    ]
+}

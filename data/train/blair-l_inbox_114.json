@@ -1,0 +1,178 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Attached are the org charts', 'indices': '2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'do you have an updated org chart', 'indices': '2 3 4 5 6 7 8'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Lynn",
+            ",",
+            "Attached",
+            "are",
+            "the",
+            "org",
+            "charts",
+            "for",
+            "ETS",
+            "Gas",
+            "Logistics",
+            ":",
+            "<",
+            "<",
+            "File",
+            ":",
+            "ETS",
+            "GAS",
+            "LOGISTICS.ppt",
+            ">",
+            ">",
+            "Have",
+            "a",
+            "great",
+            "weekend",
+            ".",
+            "Thanks",
+            "!",
+            "Miranda"
+        ],
+        [
+            "Fran",
+            ",",
+            "do",
+            "you",
+            "have",
+            "an",
+            "updated",
+            "org",
+            "chart",
+            "that",
+            "I",
+            "could",
+            "send",
+            "to",
+            "the",
+            "Measurement",
+            "group",
+            "?",
+            "Thanks",
+            ".",
+            "Lynn"
+        ],
+        [
+            "Lynn",
+            ",",
+            "Please",
+            "see",
+            "attached",
+            ":",
+            "Have",
+            "a",
+            "Happy",
+            "Thanksgiving",
+            ".",
+            "Miranda"
+        ]
+    ]
+}

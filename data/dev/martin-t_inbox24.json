@@ -1,0 +1,241 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'please forward', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "Deliver_Meeting_Data:I-Meeting Members",
+                        "Deliver_Meeting_Data:I-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'is giving a presentation', 'indices': '11 12 13 14'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "Amend_Meeting_Data:Context: B-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: B-Meeting Time",
+                        "Amend_Meeting_Data:Revision: I-Meeting Time",
+                        "Amend_Meeting_Data:Revision: I-Meeting Time",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'meeting has been changed', 'indices': '1 2 3 4'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Assistants",
+            ",",
+            "please",
+            "forward",
+            "to",
+            "your",
+            "groups",
+            ".",
+            "The",
+            "Fundamentals",
+            "group",
+            "is",
+            "giving",
+            "a",
+            "presentation",
+            "tomorrow",
+            ",",
+            "Feb",
+            "5th",
+            "from",
+            "2-4",
+            "in",
+            "room",
+            "ECS06990",
+            ".",
+            "The",
+            "topic",
+            "will",
+            "be",
+            "the",
+            "Gas",
+            "Market",
+            ".",
+            "Thanks",
+            ",",
+            "Amanda",
+            "Rybarski"
+        ],
+        [
+            "This",
+            "meeting",
+            "has",
+            "been",
+            "changed",
+            "to",
+            "Thursday",
+            ",",
+            "Feb",
+            "7th",
+            "from",
+            "2-4",
+            "p.m",
+            ".",
+            "It",
+            "will",
+            "be",
+            "held",
+            "in",
+            "the",
+            "same",
+            "conference",
+            "room",
+            "(",
+            "ECS06990",
+            ")",
+            ".",
+            "Thanks",
+            ",",
+            "Amanda"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

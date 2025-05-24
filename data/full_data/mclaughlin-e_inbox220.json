@@ -1,0 +1,128 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached', 'indices': '8'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Sherry",
+            "-",
+            "As",
+            "you",
+            "can",
+            "see",
+            "from",
+            "the",
+            "attached",
+            ",",
+            "all",
+            "but",
+            "$",
+            "109,630",
+            "of",
+            "AIG",
+            "'s",
+            "combined",
+            "position",
+            "is",
+            "natural",
+            "gas",
+            "related",
+            ".",
+            "Give",
+            "me",
+            "a",
+            "call",
+            "if",
+            "you",
+            "have",
+            "any",
+            "other",
+            "questions",
+            ".",
+            "Have",
+            "a",
+            "great",
+            "Thanksgiving",
+            ".",
+            "Rgds",
+            ",",
+            "Russ"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

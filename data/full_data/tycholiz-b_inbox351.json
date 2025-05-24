@@ -1,0 +1,319 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please find attached the latest draft', 'indices': '0 1 2 3 4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'highlighted', 'indices': '11'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'File :', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "Amend_Data:Revision: B-Data idString",
+                        "Amend_Data:Revision: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'added one line', 'indices': '10 11 12'}"
+                ],
+                "extras": [
+                    "Amend Action : Add"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will file', 'indices': '13 14'}",
+                    "{'words': 'will file a hard copy', 'indices': '13 14 25 26 27'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "find",
+            "attached",
+            "the",
+            "latest",
+            "draft",
+            "of",
+            "comments",
+            ".",
+            "I",
+            "have",
+            "highlighted",
+            "changes",
+            "on",
+            "page",
+            "2",
+            "referencing",
+            "fixed-price",
+            "contracts",
+            ".",
+            "<",
+            "<",
+            "File",
+            ":",
+            "colorado",
+            "comments.doc",
+            ">",
+            ">"
+        ],
+        [
+            "<",
+            "<",
+            "File",
+            ":",
+            "colorado",
+            "comments.doc",
+            ">",
+            ">",
+            "I",
+            "only",
+            "added",
+            "one",
+            "line",
+            ",",
+            "otherwise",
+            "it",
+            "looks",
+            "good",
+            "."
+        ],
+        [
+            "Thanks",
+            ".",
+            "I",
+            "am",
+            "waiting",
+            "on",
+            "comments",
+            "from",
+            "Sue",
+            "and",
+            "Paul",
+            ",",
+            "and",
+            "will",
+            "file",
+            "the",
+            "comments",
+            "electronically",
+            "and",
+            "by",
+            "facsimile",
+            "Monday",
+            ",",
+            "followed",
+            "by",
+            "a",
+            "hard",
+            "copy",
+            "the",
+            "following",
+            "day",
+            "."
+        ]
+    ]
+}

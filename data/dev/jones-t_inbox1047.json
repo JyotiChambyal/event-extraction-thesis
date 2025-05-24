@@ -1,0 +1,86 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please see attached', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "see",
+            "attached",
+            ".",
+            "<",
+            "<",
+            "File",
+            ":",
+            "EOL",
+            "11-19-01.xls",
+            ">",
+            ">",
+            "Regards",
+            ",",
+            "tm"
+        ],
+        [
+            "No",
+            "GCP",
+            "adjustment",
+            "Albert",
+            "Escamilla",
+            "(",
+            "Global",
+            "Counterparty",
+            ")"
+        ]
+    ]
+}

@@ -1,0 +1,495 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'need to meet', 'indices': '14 15 16'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'I am available', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            },
+            "Request_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please let me know your availability', 'indices': '29 30 31 32 33 34'}"
+                ],
+                "extras": [
+                    "Query Items  : Meeting Date"
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'I am available', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Works for me', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            }
+        },
+        "turn_3": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Time",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Members",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'How about 9:30', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        },
+        "turn_4": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"That 's fine with me\", 'indices': '0 1 2 3 4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_5": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Works for me', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_6": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'have a 10:00 AM meeting', 'indices': '1 2 3 4 5'}",
+                    "{'words': 'can come back after my other meeting', 'indices': '24 25 26 27 28 29 30'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : Unsure"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "I",
+            "am",
+            "available",
+            "all",
+            "day",
+            "on",
+            "Tuesday",
+            "to",
+            "discuss",
+            "the",
+            "above",
+            "subject",
+            ".",
+            "We",
+            "need",
+            "to",
+            "meet",
+            "to",
+            "discuss",
+            "this",
+            "issue",
+            "from",
+            "purely",
+            "a",
+            "ETS",
+            "point",
+            "of",
+            "view",
+            ".",
+            "Please",
+            "let",
+            "me",
+            "know",
+            "your",
+            "availability",
+            ".",
+            "Thanks",
+            ",",
+            "Paul"
+        ],
+        [
+            "I",
+            "am",
+            "available",
+            "from",
+            "9:00",
+            "a.m.",
+            "to",
+            "11:00",
+            "a.m.",
+            "(",
+            "but",
+            "not",
+            "after",
+            "11:00",
+            "a.m.",
+            ")",
+            "and",
+            "after",
+            "2:00",
+            "."
+        ],
+        [
+            "Works",
+            "for",
+            "me",
+            ".",
+            "Dan"
+        ],
+        [
+            "How",
+            "about",
+            "9:30",
+            "if",
+            "James",
+            "and",
+            "John",
+            "are",
+            "available",
+            "?",
+            "Paul"
+        ],
+        [
+            "That",
+            "'s",
+            "fine",
+            "with",
+            "me",
+            "."
+        ],
+        [
+            "Works",
+            "for",
+            "me",
+            "also",
+            "."
+        ],
+        [
+            "I",
+            "have",
+            "a",
+            "10:00",
+            "AM",
+            "meeting",
+            ".",
+            "Please",
+            "go",
+            "ahead",
+            "and",
+            "meet",
+            ",",
+            "I",
+            "do",
+            "not",
+            "have",
+            "to",
+            "be",
+            "there",
+            "the",
+            "whole",
+            "time",
+            "and",
+            "can",
+            "come",
+            "back",
+            "after",
+            "my",
+            "other",
+            "meeting",
+            ".",
+            "James"
+        ]
+    ]
+}

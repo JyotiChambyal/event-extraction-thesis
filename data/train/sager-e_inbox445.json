@@ -1,0 +1,114 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Time",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "Request_Meeting:I-Meeting Members",
+                        "O",
+                        "Request_Meeting:B-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please plan to attend a 9am meeting', 'indices': '1 2 3 4 5 6 7'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: B-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: B-Meeting Time",
+                        "Amend_Meeting_Data:Revision: I-Meeting Time",
+                        "Amend_Meeting_Data:Revision: I-Meeting Time",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'rescheduled this', 'indices': '4 5'}"
+                ],
+                "extras": [
+                    "Amend Action : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "REVISED",
+            "Please",
+            "plan",
+            "to",
+            "attend",
+            "a",
+            "9am",
+            "meeting",
+            "with",
+            "Kevin",
+            "Presto",
+            "in",
+            "room",
+            "6980",
+            "...",
+            "Thanks",
+            "T.Jae",
+            "Black"
+        ],
+        [
+            "Sorry",
+            "...",
+            "we",
+            "have",
+            "rescheduled",
+            "this",
+            "again",
+            ":",
+            "Wed.",
+            ",",
+            "12/12/01",
+            "Conf",
+            ".",
+            "Room",
+            "6980",
+            "10",
+            "-",
+            "11am",
+            "Thanks",
+            "Tjae"
+        ]
+    ]
+}

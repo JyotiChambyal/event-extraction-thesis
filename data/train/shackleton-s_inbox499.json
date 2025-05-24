@@ -1,0 +1,213 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'what percentage', 'indices': '10 11'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'asking', 'indices': '30'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please see me', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "In",
+            "connection",
+            "with",
+            "the",
+            "Legal",
+            "costs",
+            "allocations",
+            "for",
+            "2002",
+            ",",
+            "what",
+            "percentage",
+            "of",
+            "your",
+            "time",
+            "do",
+            "you",
+            "think",
+            "you",
+            "would",
+            "spend",
+            "on",
+            "EGM",
+            "matters",
+            "?",
+            "The",
+            "accounting",
+            "group",
+            "who",
+            "is",
+            "asking",
+            "for",
+            "this",
+            "information",
+            "realizes",
+            "that",
+            "this",
+            "is",
+            "a",
+            "guess",
+            "on",
+            "your",
+            "part",
+            ".",
+            "Thanks",
+            ",",
+            "Alan"
+        ],
+        [
+            "Please",
+            "see",
+            "me",
+            "before",
+            "responding",
+            "to",
+            "Alan",
+            ".",
+            "Thanks",
+            ",",
+            "Mark"
+        ]
+    ]
+}

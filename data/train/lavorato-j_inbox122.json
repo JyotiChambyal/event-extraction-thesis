@@ -1,0 +1,100 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "Request_Meeting:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"Let 's discuss\", 'indices': '2 3 4'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Rob",
+            ",",
+            "Let",
+            "'s",
+            "discuss",
+            "an",
+            "action",
+            "plan",
+            "Louise"
+        ],
+        [
+            "FYI",
+            "Bill",
+            "(",
+            "Bradford",
+            ")",
+            "and",
+            "I",
+            "have",
+            "a",
+            "plan",
+            "but",
+            "the",
+            "number",
+            "is",
+            "a",
+            "bit",
+            "higher",
+            "than",
+            "we",
+            "thought",
+            ".",
+            "L"
+        ]
+    ]
+}

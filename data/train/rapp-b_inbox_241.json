@@ -1,0 +1,200 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'File :', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': '< < FERC response.doc > >', 'indices': '5 6 7 8 9 10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"Attatched are USGT 's ( Aquila ) responses\", 'indices': '0 1 2 3 4 5 6 7'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "Deliver_Action_Data:B-Action Date",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'mailed', 'indices': '16'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "<",
+            "<",
+            "File",
+            ":",
+            "FERC",
+            "response.doc",
+            ">",
+            ">",
+            "Cindy",
+            "Bishop",
+            "Sr.",
+            "Trader-West",
+            "Aquila",
+            "Dallas",
+            "Marketing",
+            "2711",
+            "N.",
+            "Haskell",
+            "Ave.",
+            "#",
+            "2050",
+            "Dallas",
+            ",",
+            "TX",
+            "75204",
+            "214/827-9464"
+        ],
+        [
+            "The",
+            "ultimate",
+            "final",
+            "copy",
+            ".",
+            "<",
+            "<",
+            "FERC",
+            "response.doc",
+            ">",
+            ">"
+        ],
+        [
+            "Attatched",
+            "are",
+            "USGT",
+            "'s",
+            "(",
+            "Aquila",
+            ")",
+            "responses",
+            "to",
+            "the",
+            "FERC",
+            "'s",
+            "questions",
+            ".",
+            "It",
+            "was",
+            "mailed",
+            "on",
+            "Friday",
+            "."
+        ]
+    ]
+}

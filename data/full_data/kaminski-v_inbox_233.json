@@ -1,0 +1,210 @@
+{
+    "events": {
+        "turn_0": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "Amend_Meeting_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Location",
+                        "Amend_Meeting_Data:Context: I-Meeting Location",
+                        "Amend_Meeting_Data:Context: I-Meeting Location",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'changed the conference room', 'indices': '4 5 6 7'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please let the rest of the people know', 'indices': '11 12 13 14 15 16 17 18'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'change the meeting room info', 'indices': '5 6 7 8 9'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "I",
+            "went",
+            "ahead",
+            "and",
+            "changed",
+            "the",
+            "conference",
+            "room",
+            "to",
+            "eb-641",
+            ".",
+            "Please",
+            "let",
+            "the",
+            "rest",
+            "of",
+            "the",
+            "people",
+            "know",
+            ".",
+            "If",
+            "you",
+            "have",
+            "any",
+            "questions",
+            ",",
+            "please",
+            "let",
+            "me",
+            "know",
+            ".",
+            "Thanks",
+            "Christy",
+            "ext.3-3365"
+        ],
+        [
+            "Anita",
+            ",",
+            "Can",
+            "you",
+            "please",
+            "change",
+            "the",
+            "meeting",
+            "room",
+            "info",
+            "in",
+            "Vince",
+            "'s",
+            "and",
+            "Krishna",
+            "'s",
+            "calenders",
+            "for",
+            "the",
+            "meeting",
+            "on",
+            "June",
+            "5",
+            "at",
+            "1pm",
+            ".",
+            "Thanks",
+            ",",
+            "Osman"
+        ]
+    ]
+}

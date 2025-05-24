@@ -1,0 +1,287 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'find below an estimate', 'indices': '3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'sent', 'indices': '46'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "Amend_Data:Context: B-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Revision: B-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Revised Amount typo below', 'indices': '8 9 10 11'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Settlement",
+            "Amount",
+            "Please",
+            "find",
+            "below",
+            "an",
+            "estimate",
+            "by",
+            "Company",
+            ",",
+            "of",
+            "the",
+            "Post-Petition",
+            "amounts",
+            ",",
+            "accruing",
+            "on",
+            "a",
+            "daily",
+            "basis",
+            ".",
+            "Enron",
+            "Energy",
+            "Marketing",
+            "$",
+            "61,941",
+            "per",
+            "day",
+            "Enron",
+            "Power",
+            "Marketing",
+            "$",
+            "1,090,901",
+            "per",
+            "day",
+            "Enron",
+            "Energy",
+            "Services",
+            "$",
+            "178,875",
+            "per",
+            "day",
+            "These",
+            "amounts",
+            "are",
+            "being",
+            "sent",
+            "as",
+            "confidential",
+            "information",
+            "for",
+            "the",
+            "recipients",
+            ".",
+            "They",
+            "are",
+            "only",
+            "an",
+            "estimate",
+            ".",
+            "Cheryl"
+        ],
+        [
+            "Enron",
+            "Power",
+            "Marketing",
+            "$",
+            "1,179,484",
+            "per",
+            "day",
+            "-",
+            "Revised",
+            "Amount",
+            "typo",
+            "below",
+            ".",
+            "My",
+            "apologies",
+            ".",
+            "Cheryl"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

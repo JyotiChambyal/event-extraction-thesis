@@ -1,0 +1,142 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'MEETING IS SCHEDULED', 'indices': '9 10 11'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "MANDATORY",
+            "OPERATING",
+            "COMMITTEE",
+            "MEETING",
+            "A",
+            "MANDATORY",
+            "EGF",
+            "OPERATING",
+            "COMMITTEE",
+            "MEETING",
+            "IS",
+            "SCHEDULED",
+            "FOR",
+            "WEDNESDAY",
+            ",",
+            "OCTOBER",
+            "24TH",
+            "AT",
+            "8:00",
+            "A.M",
+            ".",
+            "IN",
+            "CONFERENCE",
+            "ROOM",
+            "20C2",
+            ".",
+            "DIAL",
+            "IN",
+            "NUMBERS",
+            "Domestic",
+            ":",
+            "1-888-232-3866",
+            "International",
+            ":",
+            "805-240-9463",
+            "Participant",
+            "Code",
+            ":",
+            "209631",
+            "Host",
+            ":",
+            "Ben",
+            "Glisan",
+            "Host",
+            "Code",
+            ":",
+            "340848",
+            "Blanca",
+            "Bollom",
+            "X-5-8447"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

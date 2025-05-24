@@ -1,0 +1,128 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will try', 'indices': '1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'When are you planning', 'indices': '5 6 7 8'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Date"
+                ]
+            },
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"What 's it for ?\", 'indices': '0 1 2 3 4'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "I",
+            "will",
+            "try",
+            "to",
+            "pay",
+            "Duke",
+            "Field",
+            "Services",
+            "$",
+            "293543",
+            ",",
+            "ASAP"
+        ],
+        [
+            "What",
+            "'s",
+            "it",
+            "for",
+            "?",
+            "When",
+            "are",
+            "you",
+            "planning",
+            "on",
+            "submitting",
+            "the",
+            "cash",
+            "request",
+            "to",
+            "the",
+            "committee",
+            "?"
+        ]
+    ]
+}

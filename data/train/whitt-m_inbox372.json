@@ -1,0 +1,165 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Pls coordinate', 'indices': '0 1'}",
+                    "{'words': 'Pls include', 'indices': '26 27'}"
+                ],
+                "extras": [
+                    "",
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'let me know what days you plan', 'indices': '1 2 3 4 5 6 7'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Pls",
+            "coordinate",
+            "a",
+            "vacation",
+            "schedule",
+            "planner",
+            "for",
+            "me",
+            "for",
+            "all",
+            "of",
+            "the",
+            "staff",
+            "from",
+            "now",
+            "until",
+            "the",
+            "end",
+            "of",
+            "the",
+            "year",
+            "(",
+            "including",
+            "Jan",
+            ")",
+            ".",
+            "Pls",
+            "include",
+            "Denver",
+            "BT",
+            "."
+        ],
+        [
+            "Please",
+            "let",
+            "me",
+            "know",
+            "what",
+            "days",
+            "you",
+            "plan",
+            "on",
+            "taking",
+            "off",
+            ".",
+            "Thanks",
+            ",",
+            "Jessica"
+        ]
+    ]
+}

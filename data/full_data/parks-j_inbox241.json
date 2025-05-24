@@ -1,0 +1,96 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'what s your number', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': '7143-584-1234', 'indices': '5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "barely"
+        ],
+        [
+            "what",
+            "s",
+            "your",
+            "number"
+        ],
+        [
+            "Give",
+            "me",
+            "a",
+            "minute",
+            ",",
+            "7143-584-1234"
+        ]
+    ]
+}

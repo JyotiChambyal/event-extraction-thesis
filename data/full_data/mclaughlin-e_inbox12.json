@@ -1,0 +1,74 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "/usr/openwin/bin/xterm",
+            "-ls",
+            "-sb",
+            "-display",
+            "@",
+            "d",
+            "-n",
+            "$",
+            "host",
+            "-T",
+            "$",
+            "host",
+            "-r",
+            "-sl",
+            "3000"
+        ],
+        [
+            "code",
+            "for",
+            "runM"
+        ]
+    ]
+}

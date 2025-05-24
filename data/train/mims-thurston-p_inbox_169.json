@@ -1,0 +1,126 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'forward', 'indices': '2'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will look', 'indices': '19 20'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Can",
+            "you",
+            "forward",
+            "Cary",
+            "'s",
+            "old",
+            "industrials",
+            "info",
+            "to",
+            "Patrice",
+            "?"
+        ],
+        [
+            "I",
+            "could",
+            "be",
+            "wrong",
+            ",",
+            "but",
+            "I",
+            "believe",
+            "that",
+            "the",
+            "only",
+            "industrial",
+            "Cary",
+            "spoke",
+            "to",
+            "was",
+            "Cargill",
+            ".",
+            "I",
+            "will",
+            "look",
+            "through",
+            "his",
+            "files",
+            "and",
+            "see",
+            "if",
+            "I",
+            "find",
+            "anything",
+            "else",
+            ".",
+            "Gregg"
+        ]
+    ]
+}

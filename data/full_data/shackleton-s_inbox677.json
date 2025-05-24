@@ -1,0 +1,122 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "O",
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"'d like to catch up\", 'indices': '12 13 14 15 16'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Absolutely', 'indices': '0'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Request_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'when do you want to meet', 'indices': '3 4 5 6 7 8'}"
+                ],
+                "extras": [
+                    "Query Items  : Meeting Time"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Will",
+            "you",
+            "be",
+            "in",
+            "the",
+            "office",
+            "on",
+            "Friday",
+            ",",
+            "2/7",
+            "?",
+            "I",
+            "'d",
+            "like",
+            "to",
+            "catch",
+            "up",
+            ".",
+            "Sara",
+            "Sara",
+            "Shackleton"
+        ],
+        [
+            "Absolutely",
+            "-",
+            "-",
+            "when",
+            "do",
+            "you",
+            "want",
+            "to",
+            "meet",
+            "?"
+        ]
+    ]
+}

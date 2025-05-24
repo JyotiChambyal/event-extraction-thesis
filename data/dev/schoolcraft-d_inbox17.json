@@ -1,0 +1,46 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Deliver_Data:B-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'SUN1024.xls', 'indices': '1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "-",
+            "SUN1024.xls"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

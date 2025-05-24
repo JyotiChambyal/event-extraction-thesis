@@ -1,0 +1,304 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Attached you will find the proposed resolution', 'indices': '4 5 6 7 8 9 10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'what changes', 'indices': '15 16'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Revision: B-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'made some change', 'indices': '4 5 6'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'do you want me to', 'indices': '17 18 19 20 21'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Members"
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'we have it', 'indices': '2 3 4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Rick",
+            "and",
+            "David",
+            ":",
+            "Attached",
+            "you",
+            "will",
+            "find",
+            "the",
+            "proposed",
+            "resolution",
+            ".",
+            "Let",
+            "me",
+            "know",
+            "what",
+            "changes",
+            "you",
+            "need",
+            "to",
+            "make",
+            ".",
+            "Jeff",
+            "<",
+            "<",
+            "File",
+            ":",
+            "Enron",
+            "Corp",
+            "Res.doc",
+            ">",
+            ">"
+        ],
+        [
+            "Thanks",
+            "Jeff",
+            "-",
+            "I",
+            "made",
+            "some",
+            "change",
+            "to",
+            "make",
+            "it",
+            "line",
+            "up",
+            "with",
+            "the",
+            "changes",
+            "we",
+            "have",
+            "already",
+            "made",
+            "and",
+            "the",
+            "proposed",
+            "changes",
+            "<",
+            "<",
+            "File",
+            ":",
+            "Enron",
+            "Corp",
+            "Res.doc",
+            ">",
+            ">"
+        ],
+        [
+            "The",
+            "revisions",
+            "look",
+            "fine",
+            "to",
+            "me",
+            ".",
+            "Are",
+            "you",
+            "and/or",
+            "Rick",
+            "going",
+            "to",
+            "forward",
+            "this",
+            "on",
+            "or",
+            "do",
+            "you",
+            "want",
+            "me",
+            "to",
+            "?",
+            "Jeff"
+        ],
+        [
+            "no",
+            ",",
+            "we",
+            "have",
+            "it",
+            "thanks",
+            "dp"
+        ]
+    ]
+}

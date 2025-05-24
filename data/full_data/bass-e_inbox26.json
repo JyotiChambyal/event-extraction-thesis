@@ -1,0 +1,56 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'we need', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'what about', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "we",
+            "need",
+            "a",
+            "fourth",
+            "again"
+        ],
+        [
+            "what",
+            "about",
+            "hull",
+            "?"
+        ]
+    ]
+}

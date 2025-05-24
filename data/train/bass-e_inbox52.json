@@ -1,0 +1,80 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached memo', 'indices': '1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Any thoughts ?', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "The",
+            "attached",
+            "memo",
+            "is",
+            "being",
+            "forwarded",
+            "to",
+            "you",
+            "at",
+            "the",
+            "instruction",
+            "of",
+            "Jeff",
+            "Hodge",
+            ".",
+            "Joanne",
+            "Rozycki"
+        ],
+        [
+            "Any",
+            "thoughts",
+            "?",
+            "Tom"
+        ]
+    ]
+}

@@ -1,0 +1,172 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'enjoyed', 'indices': '8'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "(",
+            "Just",
+            "in",
+            "case",
+            "...",
+            ")",
+            "I",
+            "have",
+            "enjoyed",
+            "working",
+            "with",
+            "all",
+            "of",
+            "you",
+            "talented",
+            "people",
+            ".",
+            "Good",
+            "Luck",
+            "&",
+            "Thanks",
+            ",",
+            "Hal",
+            "McKinney",
+            "work",
+            "-",
+            "(",
+            "713",
+            ")",
+            "345-3707",
+            "cell",
+            "-",
+            "(",
+            "281",
+            ")",
+            "773-7982",
+            "hmckinney3",
+            "@",
+            "yahoo.com"
+        ],
+        [
+            "It",
+            "'s",
+            "been",
+            "a",
+            "real",
+            "pleasure",
+            "working",
+            "with",
+            "everyone",
+            ".",
+            "Susan",
+            "Trevino",
+            "home",
+            "-",
+            "(",
+            "713",
+            ")",
+            "688-6186",
+            "cell",
+            "-",
+            "(",
+            "832",
+            ")",
+            "452",
+            "5805",
+            "strevino6186",
+            "@",
+            "yahoo.com"
+        ]
+    ]
+}

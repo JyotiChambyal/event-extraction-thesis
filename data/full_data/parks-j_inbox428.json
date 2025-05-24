@@ -1,0 +1,124 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "Daily",
+            "is",
+            "good",
+            "because",
+            "if",
+            "a",
+            "front",
+            "does",
+            "move",
+            "in",
+            ",",
+            "Brazos",
+            "may",
+            "elect",
+            "to",
+            "take",
+            "the",
+            "power",
+            ".",
+            "Right",
+            "now",
+            "the",
+            "notice",
+            "period",
+            "is",
+            "for",
+            "three",
+            "days",
+            "out",
+            ".",
+            "Maz"
+        ],
+        [
+            "FYI",
+            "."
+        ]
+    ]
+}

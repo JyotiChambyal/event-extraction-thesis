@@ -1,0 +1,148 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Deliver Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'setting up', 'indices': '4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "Request_Action_Data:Context: B-Request Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Do you think I need to set up', 'indices': '11 12 13 14 15 16 17 18'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'set up', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "John",
+            ",",
+            "I",
+            "am",
+            "setting",
+            "up",
+            "new",
+            "books",
+            "for",
+            "NETCO",
+            ".",
+            "Do",
+            "you",
+            "think",
+            "I",
+            "need",
+            "to",
+            "set",
+            "up",
+            "Crude",
+            ",",
+            "HO",
+            ",",
+            "&",
+            "HU",
+            "books",
+            "?",
+            "Thanks-Errol"
+        ],
+        [
+            "yea",
+            ",",
+            "set",
+            "up",
+            "1",
+            "for",
+            "each"
+        ]
+    ]
+}

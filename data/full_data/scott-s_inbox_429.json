@@ -1,0 +1,150 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'if you got', 'indices': '6 7 8'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'received', 'indices': '1'}",
+                    "{'words': 'forward', 'indices': '4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "could",
+            "you",
+            "just",
+            "let",
+            "me",
+            "know",
+            "if",
+            "you",
+            "got",
+            "the",
+            "last",
+            "email"
+        ],
+        [
+            "I",
+            "received",
+            "it",
+            "and",
+            "forward",
+            "to",
+            "Ed",
+            ".",
+            "Sorry",
+            "about",
+            "your",
+            "loss",
+            ".",
+            "Let",
+            "me",
+            "know",
+            "if",
+            "there",
+            "is",
+            "anything",
+            "else",
+            "you",
+            "nee",
+            "dofr",
+            "me",
+            "to",
+            "do",
+            "."
+        ]
+    ]
+}

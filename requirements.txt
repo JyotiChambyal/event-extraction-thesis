@@ -1,0 +1,12 @@
+# Core ML/DL libraries
+torch>=2.0.0             # PyTorch: Deep learning framework
+transformers>=4.30.0     # Hugging Face Transformers: For BERT models and tokenizer
+torchcrf>=1.1.0          # PyTorch-CRF: For Conditional Random Field layer
+
+# Data handling and utilities
+numpy>=1.20.0            
+tqdm>=4.60.0             
+
+# You might also include other commonly used libraries if you add them later
+scikit-learn>=1.0.0   
+pandas>=1.0.0  

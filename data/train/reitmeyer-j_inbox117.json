@@ -1,0 +1,120 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please give', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Done', 'indices': '0'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'just use', 'indices': '3 4'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "give",
+            "the",
+            "following",
+            "access",
+            "to",
+            "the",
+            "RAC",
+            "website",
+            ",",
+            "sub-parent-portfolio",
+            "Lavorato-West",
+            ",",
+            "found",
+            "under",
+            "AGG-GASIV",
+            "Thanks",
+            ",",
+            "Frank",
+            "jreitme",
+            "mlenhar"
+        ],
+        [
+            "Done",
+            "."
+        ],
+        [
+            "Your",
+            "on",
+            ",",
+            "just",
+            "use",
+            "your",
+            "NT",
+            "log",
+            "on",
+            "password"
+        ]
+    ]
+}

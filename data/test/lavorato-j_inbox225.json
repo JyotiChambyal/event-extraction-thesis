@@ -1,0 +1,68 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"'ll drop\", 'indices': '4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'onecoming', 'indices': '1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "as",
+            "mentioned",
+            ",",
+            "we",
+            "'ll",
+            "drop",
+            "in",
+            "the",
+            "revised",
+            "commercial",
+            "expense",
+            "numbers"
+        ],
+        [
+            "New",
+            "onecoming",
+            "tomorrow"
+        ]
+    ]
+}

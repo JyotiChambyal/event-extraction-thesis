@@ -1,0 +1,344 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'says', 'indices': '3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'any ideas ?', 'indices': '29 30 31'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'called', 'indices': '1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: B-Amend Date",
+                        "Amend_Data:Context: I-Amend Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'changed the flag', 'indices': '2 3 4'}"
+                ],
+                "extras": [
+                    "Amend Action : "
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'please re-path', 'indices': '4 5'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'corrected', 'indices': '4'}",
+                    "{'words': \"fax 'd\", 'indices': '6 7'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "TK",
+            "called",
+            "and",
+            "says",
+            "PNM",
+            "K",
+            "#",
+            "27606",
+            "is",
+            "a",
+            "1-part",
+            "deal",
+            ",",
+            "is",
+            "flagged",
+            "as",
+            "a",
+            "1-part",
+            "in",
+            "CBS",
+            "but",
+            "is",
+            "n't",
+            "creating",
+            "a",
+            "credit",
+            "for",
+            "commodity",
+            "...",
+            "any",
+            "ideas",
+            "?",
+            "Craig"
+        ],
+        [
+            "Dennis",
+            "just",
+            "changed",
+            "the",
+            "flag",
+            "last",
+            "week",
+            ".",
+            "It",
+            "should",
+            "now",
+            "be",
+            "creating",
+            "a",
+            "credit",
+            "for",
+            "commodity",
+            "."
+        ],
+        [
+            "Laura",
+            ",",
+            "Would",
+            "you",
+            "please",
+            "re-path",
+            "this",
+            "contract/invoice",
+            "so",
+            "the",
+            "system",
+            "will",
+            "pick",
+            "up",
+            "the",
+            "1-part",
+            "flag",
+            "?",
+            "Thanks",
+            "!",
+            "Craig"
+        ],
+        [
+            "These",
+            "invoices",
+            "have",
+            "been",
+            "corrected",
+            "and",
+            "fax",
+            "'d",
+            "to",
+            "customer",
+            ".",
+            "Laura"
+        ]
+    ]
+}

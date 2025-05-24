@@ -1,0 +1,168 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: B-Action Time",
+                        "Request_Action_Data:Context: I-Action Time",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Did you go', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Members"
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'went', 'indices': '1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_3": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Did",
+            "you",
+            "go",
+            "this",
+            "morning",
+            "?",
+            "If",
+            "not",
+            ",",
+            "do",
+            "you",
+            "want",
+            "to",
+            "go",
+            "after",
+            "work",
+            "?"
+        ],
+        [
+            "I",
+            "went",
+            "already",
+            "lazy"
+        ],
+        [
+            "thanks",
+            "for",
+            "the",
+            "look"
+        ],
+        [
+            "good",
+            "try",
+            "at",
+            "the",
+            "lingo",
+            "but",
+            "an",
+            "inappropriate",
+            "usage",
+            "due",
+            "to",
+            "the",
+            "fact",
+            "monday",
+            "morning",
+            "is",
+            "when",
+            "YOU",
+            "'RE",
+            "SUPPOSED",
+            "TO",
+            "WORK",
+            "OUT",
+            "."
+        ]
+    ]
+}

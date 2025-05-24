@@ -1,0 +1,120 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "Request_Data:Context: B-Request Date",
+                        "Request_Data:Context: I-Request Date",
+                        "Request_Data:Context: I-Request Date",
+                        "Request_Data:Context: I-Request Date",
+                        "Request_Data:Context: I-Request Date",
+                        "Request_Data:Context: I-Request Date",
+                        "Request_Data:Context: I-Request Date",
+                        "Request_Data:Context: I-Request Date",
+                        "Request_Data:Context: I-Request Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'send a copy', 'indices': '15 16 17'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Did Diane get', 'indices': '9 10 11'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Hey",
+            "Brent",
+            ".",
+            "When",
+            "you",
+            "finalize",
+            "and",
+            "send",
+            "out",
+            "the",
+            "Torch",
+            "assignment",
+            ",",
+            "can",
+            "you",
+            "send",
+            "a",
+            "copy",
+            "down",
+            "to",
+            "me",
+            "?",
+            "Thanks",
+            ".",
+            "Diane",
+            "3.0443"
+        ],
+        [
+            "I",
+            "ca",
+            "n't",
+            "remember",
+            "who",
+            "worked",
+            "on",
+            "this",
+            ".",
+            "Did",
+            "Diane",
+            "get",
+            "a",
+            "copy",
+            "?"
+        ]
+    ]
+}

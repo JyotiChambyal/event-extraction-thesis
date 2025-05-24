@@ -1,0 +1,159 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please coordinate', 'indices': '0 1'}",
+                    "{'words': 'should be done', 'indices': '29 30 31'}"
+                ],
+                "extras": [
+                    "",
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "-Evan",
+            "Fort",
+            "5-2444"
+        ],
+        [
+            "Please",
+            "coordinate",
+            "with",
+            "the",
+            "desk",
+            "heads",
+            "to",
+            "ensure",
+            "we",
+            "are",
+            "not",
+            "duplicating",
+            "effort",
+            ".",
+            "I",
+            "do",
+            "not",
+            "believe",
+            "you",
+            "will",
+            "have",
+            "to",
+            "do",
+            "an",
+            "eval",
+            "on",
+            "Jay",
+            ".",
+            "It",
+            "should",
+            "be",
+            "done",
+            "with",
+            "his",
+            "previous",
+            "group",
+            "."
+        ]
+    ]
+}

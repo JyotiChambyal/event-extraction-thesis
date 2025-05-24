@@ -1,0 +1,100 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"Here 's his resume\", 'indices': '1 2 3 4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Brent",
+            "J.",
+            "Dornier"
+        ],
+        [
+            "Chris-",
+            "Here",
+            "'s",
+            "his",
+            "resume",
+            "as",
+            "promised",
+            ".",
+            "It",
+            "was",
+            "great",
+            "to",
+            "talk",
+            "to",
+            "you",
+            "today",
+            "!",
+            "Ca",
+            "n't",
+            "wait",
+            "to",
+            "have",
+            "Chick-Fil-A",
+            "soon.",
+            ".",
+            ".",
+            "Ang",
+            "."
+        ]
+    ]
+}

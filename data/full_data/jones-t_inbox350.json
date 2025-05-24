@@ -1,0 +1,168 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached a Non-Disclosure Agreement', 'indices': '13 14 15 16'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Bo",
+            ",",
+            "In",
+            "anticipation",
+            "of",
+            "our",
+            "meeting",
+            "on",
+            "October",
+            "19th",
+            ",",
+            "I",
+            "have",
+            "attached",
+            "a",
+            "Non-Disclosure",
+            "Agreement",
+            "for",
+            "you",
+            "review",
+            ".",
+            "If",
+            "the",
+            "agreement",
+            "is",
+            "ok",
+            "with",
+            "you",
+            "please",
+            "sign",
+            "and",
+            "return",
+            "it",
+            "to",
+            "me",
+            "for",
+            "execution",
+            "by",
+            "Enron",
+            "Net",
+            "Works",
+            ".",
+            "If",
+            "you",
+            "have",
+            "any",
+            "questions",
+            "you",
+            "can",
+            "call",
+            "me",
+            "or",
+            "our",
+            "attorney",
+            "Mark",
+            "Greenberg",
+            "at",
+            "713",
+            "345-8897",
+            ".",
+            "Thanks",
+            "Bob",
+            "Shults"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

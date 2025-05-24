@@ -1,0 +1,268 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'talked', 'indices': '1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:B-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'E-mail them', 'indices': '28 29'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Attached please find the September Baseball stats', 'indices': '2 3 4 5 6 7 8'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'working', 'indices': '15'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "We",
+            "talked",
+            "a",
+            "couple",
+            "of",
+            "weeks",
+            "ago",
+            "about",
+            "getting",
+            "together",
+            "about",
+            "the",
+            "YTD",
+            "stats",
+            "for",
+            "the",
+            "Texas",
+            "Gas",
+            "Traders",
+            ".",
+            "If",
+            "you",
+            "do",
+            "n't",
+            "mind",
+            "maybe",
+            "you",
+            "could",
+            "E-mail",
+            "them",
+            "to",
+            "me",
+            "when",
+            "you",
+            "get",
+            "a",
+            "chance",
+            ".",
+            "Tom"
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "Tom",
+            ":",
+            "Attached",
+            "please",
+            "find",
+            "the",
+            "September",
+            "Baseball",
+            "stats",
+            "for",
+            "Texas",
+            "desk",
+            ".",
+            "I",
+            "am",
+            "working",
+            "on",
+            "the",
+            "October",
+            "numbers",
+            ".",
+            "Ding",
+            "."
+        ]
+    ]
+}

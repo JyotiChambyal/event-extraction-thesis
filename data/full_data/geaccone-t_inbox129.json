@@ -1,0 +1,130 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please return', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "return",
+            "your",
+            "capital",
+            "plans",
+            "asap",
+            ",",
+            "no",
+            "later",
+            "than",
+            "Thursday",
+            ",",
+            "Sept.",
+            "13",
+            ".",
+            "I",
+            "need",
+            "by",
+            "month",
+            "and",
+            "in-service",
+            "dates",
+            "so",
+            "we",
+            "can",
+            "calculate",
+            "DD",
+            "&",
+            "A",
+            "and",
+            "AFUDC",
+            ".",
+            "Thanks"
+        ],
+        [
+            "This",
+            "is",
+            "what",
+            "received",
+            "from",
+            "Northern",
+            "Border",
+            "for",
+            "their",
+            "direct",
+            "IT",
+            "projects",
+            "."
+        ]
+    ]
+}

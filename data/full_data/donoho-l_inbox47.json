@@ -1,0 +1,124 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "O",
+                        "Request_Meeting:B-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "O",
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:B-Meeting Time",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "Request_Meeting:B-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please plan to attend a run through', 'indices': '0 1 2 3 4 5 6'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'dry run is this Thursday', 'indices': '2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "plan",
+            "to",
+            "attend",
+            "a",
+            "run",
+            "through",
+            "with",
+            "Danny",
+            "of",
+            "your",
+            "2002",
+            "Plan",
+            "Presentations",
+            "for",
+            "the",
+            "Lay",
+            "Reviews",
+            "on",
+            "Thursday",
+            ",",
+            "October",
+            "25",
+            "from",
+            "9:00-11:00",
+            "in",
+            "42C2",
+            ".",
+            "For",
+            "Omaha",
+            "room",
+            "696",
+            ".",
+            "Thanks",
+            "Tracy"
+        ],
+        [
+            "FYI",
+            ",",
+            "dry",
+            "run",
+            "is",
+            "this",
+            "Thursday",
+            "."
+        ]
+    ]
+}

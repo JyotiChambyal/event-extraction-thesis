@@ -1,0 +1,302 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "Request_Meeting:B-Meeting Time",
+                        "Request_Meeting:I-Meeting Time",
+                        "Request_Meeting:I-Meeting Time",
+                        "Request_Meeting:I-Meeting Time",
+                        "Request_Meeting:I-Meeting Time",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location",
+                        "Request_Meeting:I-Meeting Location"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'please teleconference into the meeting', 'indices': '25 26 27 28 29'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Name",
+                        "Request_Meeting:I-Meeting Name",
+                        "Request_Meeting:I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attend the following meeting', 'indices': '7 8 9 10'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Steve Kirk', 'indices': '26 27'}",
+                    "{'words': 'Barb', 'indices': '30'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'set in', 'indices': '7 8'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "When",
+            "-",
+            "Tuesday",
+            ",",
+            "February",
+            "12th",
+            "from",
+            "10:00",
+            "a.m.",
+            "to",
+            "11:00",
+            "a.m",
+            ".",
+            "Where",
+            "-",
+            "OMA",
+            "697",
+            "(",
+            "conference",
+            "room-video",
+            "is",
+            "not",
+            "available",
+            ")",
+            "Houston",
+            "please",
+            "teleconference",
+            "into",
+            "the",
+            "meeting",
+            "1-877-795-3687",
+            "conference",
+            "code",
+            ":",
+            "396613"
+        ],
+        [
+            "February",
+            "8",
+            ",",
+            "2002",
+            "Please",
+            "plan",
+            "to",
+            "attend",
+            "the",
+            "following",
+            "meeting",
+            ".",
+            "If",
+            "you",
+            "are",
+            "unable",
+            "to",
+            "attend",
+            "due",
+            "to",
+            "a",
+            "schedule",
+            "conflict",
+            ",",
+            "please",
+            "call",
+            "Steve",
+            "Kirk",
+            "402-398-7067",
+            "or",
+            "Barb",
+            "at",
+            "402-398-7074",
+            "."
+        ],
+        [
+            "FYI",
+            ".",
+            "Thought",
+            "you",
+            "might",
+            "want",
+            "to",
+            "set",
+            "in",
+            ".",
+            "Thanks",
+            ".",
+            "Lynn"
+        ]
+    ]
+}

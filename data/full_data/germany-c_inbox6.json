@@ -1,0 +1,180 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:B-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'suggest we not meet', 'indices': '12 13 14 15'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will pick', 'indices': '22 23'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will be out', 'indices': '1 2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "After",
+            "determining",
+            "who",
+            "is",
+            "available",
+            "over",
+            "the",
+            "next",
+            "few",
+            "weeks",
+            ",",
+            "I",
+            "suggest",
+            "we",
+            "not",
+            "meet",
+            "the",
+            "next",
+            "2",
+            "Tuesdays",
+            ".",
+            "We",
+            "will",
+            "pick",
+            "back",
+            "up",
+            "with",
+            "Session",
+            "4",
+            "on",
+            "July",
+            "16",
+            ".",
+            "Thx",
+            "!",
+            "Bill"
+        ],
+        [
+            "I",
+            "will",
+            "be",
+            "out",
+            "of",
+            "town",
+            "on",
+            "August",
+            "6",
+            ".",
+            "Scott"
+        ]
+    ]
+}

@@ -1,0 +1,281 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "Request_Meeting:B-Meeting Time",
+                        "Request_Meeting:I-Meeting Time",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Name",
+                        "Request_Meeting:I-Meeting Name",
+                        "Request_Meeting:I-Meeting Name",
+                        "Request_Meeting:I-Meeting Name",
+                        "O",
+                        "Request_Meeting:B-Meeting Location",
+                        "O",
+                        "Request_Meeting:B-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "Request_Meeting:I-Meeting Agenda",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Can you come', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"'ll be there\", 'indices': '9 10 11'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'let me know conference room', 'indices': '2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Query Items  : Meeting Location"
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'can you make sure', 'indices': '14 15 16 17'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'would bring', 'indices': '4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'EB 2831', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Can",
+            "you",
+            "come",
+            "on",
+            "October",
+            "31",
+            "at",
+            "9",
+            "am",
+            "to",
+            "our",
+            "one",
+            "hour",
+            "underwriting",
+            "meeting",
+            "in",
+            "RAC",
+            "to",
+            "present",
+            "the",
+            "materials",
+            "you",
+            "gave",
+            "at",
+            "the",
+            "Legal",
+            "Conference",
+            "?"
+        ],
+        [
+            "Sure",
+            "just",
+            "let",
+            "me",
+            "know",
+            "conference",
+            "room",
+            "and",
+            "I",
+            "'ll",
+            "be",
+            "there",
+            ".",
+            "Alice",
+            "can",
+            "you",
+            "make",
+            "sure",
+            "we",
+            "have",
+            "final",
+            "presentation",
+            ".",
+            "Thanks",
+            "Elizabeth",
+            "Sager",
+            "713-853-6349"
+        ],
+        [
+            "EB",
+            "2831",
+            ",",
+            "I",
+            "would",
+            "bring",
+            "25",
+            "presentations",
+            "."
+        ]
+    ]
+}

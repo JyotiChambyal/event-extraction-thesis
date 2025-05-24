@@ -1,0 +1,281 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Have you bought', 'indices': '16 17 18'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Members"
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'bought', 'indices': '3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Negative"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'forgot', 'indices': '39'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "Deliver_Meeting_Data:I-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'called', 'indices': '1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Its",
+            "a",
+            "men",
+            "'s",
+            "clothing",
+            "store",
+            "in",
+            "greenspoint",
+            "and",
+            "there",
+            "are",
+            "several",
+            "others",
+            "in",
+            "Houston",
+            ".",
+            "Have",
+            "you",
+            "bought",
+            "anything",
+            "lately",
+            "?",
+            "jenn"
+        ],
+        [
+            "No",
+            "I",
+            "have",
+            "bought",
+            "nothing",
+            ".",
+            "They",
+            "must",
+            "have",
+            "the",
+            "wrong",
+            "card",
+            "number",
+            "."
+        ],
+        [
+            "I",
+            "called",
+            "the",
+            "store",
+            "and",
+            "figured",
+            "it",
+            "out",
+            ".",
+            "The",
+            "store",
+            "is",
+            "in",
+            "Memorial",
+            "City",
+            "Mall",
+            ",",
+            "but",
+            "they",
+            "have",
+            "a",
+            "cart",
+            "that",
+            "sells",
+            "roller",
+            "skates",
+            "at",
+            "the",
+            "Woodlands",
+            ".",
+            "That",
+            "is",
+            "were",
+            "I",
+            "bought",
+            "the",
+            "helmets",
+            ".",
+            "I",
+            "forgot",
+            "to",
+            "write",
+            "it",
+            "down",
+            ".",
+            "Oops",
+            "!"
+        ]
+    ]
+}

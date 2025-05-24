@@ -1,0 +1,244 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Meetings will be held', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Time",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Date",
+                        "Amend_Meeting_Data:Context: I-Meeting Date",
+                        "Amend_Meeting_Data:Context: I-Meeting Date",
+                        "Amend_Meeting_Data:Context: I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Location",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'meeting time has been moved', 'indices': '9 10 11 12 13'}"
+                ],
+                "extras": [
+                    "Amend Action : "
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Meetings",
+            "will",
+            "be",
+            "held",
+            "over",
+            "next",
+            "few",
+            "months",
+            "to",
+            "discuss",
+            "the",
+            "offsite",
+            "tests",
+            ".",
+            "Each",
+            "meeting",
+            "will",
+            "begin",
+            "at",
+            "1:00",
+            "p.m.",
+            "in",
+            "conference",
+            "room",
+            "EB39C1",
+            "and",
+            "last",
+            "approximately",
+            "an",
+            "hour",
+            ".",
+            "The",
+            "meeting",
+            "dates",
+            "are",
+            "as",
+            "follows",
+            ":",
+            "March",
+            "21",
+            "April",
+            "4",
+            "April",
+            "18",
+            "May",
+            "2",
+            "May",
+            "9",
+            "If",
+            "you",
+            "are",
+            "unable",
+            "to",
+            "attend",
+            "please",
+            "send",
+            "a",
+            "representative",
+            ".",
+            "Sharon",
+            "Brown",
+            "ETS",
+            "Gas",
+            "Control",
+            "713-853-5660"
+        ],
+        [
+            "Due",
+            "to",
+            "conflicts",
+            "with",
+            "the",
+            "weekly",
+            "ETS",
+            "Reliability",
+            "the",
+            "meeting",
+            "time",
+            "has",
+            "been",
+            "moved",
+            "to",
+            "3:30-4:30",
+            "on",
+            "the",
+            "dates",
+            "listed",
+            "below",
+            ".",
+            "The",
+            "meeting",
+            "room",
+            "remains",
+            "EB39C1",
+            ".",
+            "slb"
+        ],
+        [
+            "FYI"
+        ]
+    ]
+}

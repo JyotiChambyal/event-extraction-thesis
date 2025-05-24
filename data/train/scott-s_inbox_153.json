@@ -1,0 +1,81 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'canada plane.jpg', 'indices': '1 2'}",
+                    "{'words': 'Frigate.jpg', 'indices': '4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "-",
+            "canada",
+            "plane.jpg",
+            "-",
+            "Frigate.jpg"
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

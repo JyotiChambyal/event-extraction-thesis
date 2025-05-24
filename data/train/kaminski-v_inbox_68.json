@@ -1,0 +1,218 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Deliver Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'may be able', 'indices': '3 4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'welcome any speaker suggestions', 'indices': '4 5 6 7'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Victoria",
+            ",",
+            "I",
+            "may",
+            "be",
+            "able",
+            "to",
+            "recommend",
+            "another",
+            "speaker",
+            ".",
+            "Vince"
+        ],
+        [
+            "Vince",
+            ",",
+            "I",
+            "would",
+            "welcome",
+            "any",
+            "speaker",
+            "suggestions",
+            ",",
+            "particularly",
+            "for",
+            "the",
+            "topics",
+            "on",
+            "stream",
+            "three",
+            ".",
+            "Many",
+            "thanks",
+            ",",
+            "Victoria",
+            "Victoria",
+            "Kerridge",
+            "Manager",
+            ",",
+            "Risk",
+            "&",
+            "EPRM",
+            "Conferences",
+            "Risk",
+            "Waters",
+            "Group",
+            "T",
+            ":",
+            "+44",
+            "(",
+            "0",
+            ")",
+            "20",
+            "7484",
+            "9875",
+            "F",
+            ":",
+            "+44",
+            "(",
+            "0",
+            ")",
+            "20",
+            "7484",
+            "9800",
+            "E",
+            ":",
+            "vkerridge",
+            "@",
+            "riskwaters.com",
+            "http",
+            ":",
+            "//www.riskwaters.com",
+            "Risk",
+            "Waters",
+            "Group",
+            "Haymarket",
+            "House",
+            "28-29",
+            "Haymarket",
+            "London",
+            "SW1Y",
+            "4RX"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

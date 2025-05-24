@@ -1,0 +1,172 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Meeting Name",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'when is it', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Query Items  : Meeting Date"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "I",
+            "have",
+            "two",
+            "ticket",
+            "available",
+            "at",
+            "the",
+            "Enron",
+            "table",
+            "for",
+            "the",
+            "NAACP",
+            "'s",
+            "Annual",
+            "Freedom",
+            "Fund",
+            "Awards",
+            "Banquet",
+            ".",
+            "VIP",
+            "Reception",
+            "Special",
+            "Pass",
+            "6pm",
+            "-",
+            "6:45pm",
+            "Free",
+            "Valet",
+            "Parking",
+            "Dinner",
+            "&",
+            "Program",
+            "7pm",
+            "George",
+            "R",
+            "Brown",
+            "Convention",
+            "Center",
+            "First",
+            "to",
+            "respond",
+            "can",
+            "have",
+            "them",
+            ".",
+            "Calvin",
+            "Eakins",
+            "Director",
+            ",",
+            "Business",
+            "and",
+            "Diversity",
+            "Development",
+            "Enron",
+            "Corp",
+            "ph",
+            ".",
+            "713-646-9500",
+            "www.enron.com/mwbd",
+            "calvin.eakins",
+            "@",
+            "enron.com"
+        ],
+        [
+            "when",
+            "is",
+            "it",
+            "?",
+            "?"
+        ]
+    ]
+}

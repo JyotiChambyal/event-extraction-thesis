@@ -1,0 +1,162 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Attached is our latest', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will be submitting', 'indices': '19 20 21'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Attached",
+            "is",
+            "our",
+            "latest",
+            "Enron",
+            "bill",
+            "."
+        ],
+        [
+            "Jim",
+            ":",
+            "The",
+            "bill",
+            "e-mailed",
+            "to",
+            "you",
+            "a",
+            "few",
+            "minutes",
+            "ago",
+            "is",
+            "for",
+            "your",
+            "informational",
+            "purposes",
+            "only",
+            ".",
+            "We",
+            "will",
+            "be",
+            "submitting",
+            "it",
+            "to",
+            "the",
+            "Court",
+            "for",
+            "authorization",
+            "under",
+            "the",
+            "procedures",
+            "it",
+            "will",
+            "be",
+            "setting",
+            "up",
+            ".",
+            "The",
+            "bill",
+            "is",
+            "not",
+            "for",
+            "current",
+            "payment",
+            "by",
+            "Enron",
+            "without",
+            "action",
+            "by",
+            "the",
+            "Court",
+            ".",
+            "Thanks",
+            ",",
+            "Chuck"
+        ]
+    ]
+}

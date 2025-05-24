@@ -1,0 +1,117 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'BINTERROR.jpg', 'indices': '14'}",
+                    "{'words': 'aftermat.jpg', 'indices': '16'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Fred",
+            ";",
+            "Savoie",
+            ",",
+            "Dick",
+            ";",
+            "Wagner",
+            ",",
+            "Bob",
+            ";",
+            "Warner",
+            ",",
+            "John",
+            "-",
+            "BINTERROR.jpg",
+            "-",
+            "aftermat.jpg"
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

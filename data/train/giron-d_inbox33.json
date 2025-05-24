@@ -1,0 +1,268 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'No Gulf Coast ?', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will most likely reside', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "P",
+            "&",
+            "L",
+            "Responsibility",
+            "Midcontinent",
+            "Region",
+            "Andy",
+            "Lewis",
+            "-",
+            "Basis",
+            "and",
+            "Gas",
+            "Daily",
+            "PEPL",
+            ",",
+            "ANR-ok",
+            ",",
+            "NNG-Demarc",
+            ",",
+            "NNG-Vent",
+            ",",
+            "NGPL-midcon",
+            "Jason",
+            "Williams",
+            "-",
+            "Cash",
+            "trading",
+            "and",
+            "index",
+            "PEPL",
+            ",",
+            "ANR-ok",
+            ",",
+            "NNG-Demarc",
+            ",",
+            "NNG-Vent",
+            ",",
+            "NGPL-midcon",
+            "Market",
+            "Area",
+            "Hunter",
+            "Shively",
+            "-",
+            "Basis",
+            "and",
+            "Gas",
+            "Daily",
+            "Chicago",
+            "Geof",
+            "Storey",
+            "-",
+            "Basis",
+            "and",
+            "Gas",
+            "Daily",
+            "Michcon",
+            "and",
+            "Dawn",
+            "Vladi",
+            "Pimenov",
+            "-",
+            "Cash",
+            "trading",
+            "and",
+            "Index",
+            "(",
+            "no",
+            "VAR",
+            ")",
+            "Chicago",
+            "Souad",
+            "Mahmassani",
+            "-",
+            "Cash",
+            "trading",
+            "and",
+            "Index",
+            "(",
+            "no",
+            "VAR",
+            ")",
+            "Michcon",
+            "and",
+            "Dawn"
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "No",
+            "Gulf",
+            "Coast",
+            "?",
+            "DG"
+        ],
+        [
+            "will",
+            "most",
+            "likely",
+            "reside",
+            "on",
+            "the",
+            "east",
+            "desk"
+        ]
+    ]
+}

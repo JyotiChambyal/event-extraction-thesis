@@ -1,0 +1,746 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'John Brazington :', 'indices': '4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Describe', 'indices': '5'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "Deliver_Data:I-Deliver Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Have some SO2 allowances :', 'indices': '3 4 5 6 7'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Members",
+                        "Request_Action:I-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Go out', 'indices': '11 12'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_4": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'on the road', 'indices': '10 11 12'}",
+                    "{'words': 'Will probably be in', 'indices': '16 17 18 19'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_5": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "Deliver_Meeting_Data:I-Meeting Members",
+                        "Deliver_Meeting_Data:I-Meeting Members",
+                        "Deliver_Meeting_Data:I-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Meeting with', 'indices': '17 18'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Gave', 'indices': '38'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_6": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will have', 'indices': '3 4'}",
+                    "{'words': 'will take', 'indices': '10 11'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_7": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_8": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_9": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_10": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "call",
+            "august",
+            "13"
+        ],
+        [
+            "Msg",
+            "in",
+            "June",
+            "15",
+            "John",
+            "Brazington",
+            ":",
+            "head",
+            "of",
+            "environmental",
+            "affairs"
+        ],
+        [
+            "DP",
+            "&",
+            "L",
+            ":",
+            "Emissions",
+            "Describe",
+            "OTC",
+            "for",
+            "SO2"
+        ],
+        [
+            "Dave",
+            "Daschau",
+            ":",
+            "Have",
+            "some",
+            "SO2",
+            "allowances",
+            ":",
+            "374",
+            "tons",
+            ".",
+            "Go",
+            "out",
+            "through",
+            "2000-2030",
+            ".",
+            "750-850,000"
+        ],
+        [
+            "Sempra",
+            "Energy",
+            ":",
+            "Mesquite",
+            "Generating",
+            "Station",
+            "619-696-2000",
+            "Marty",
+            "DiSanto",
+            ":",
+            "on",
+            "the",
+            "road",
+            "this",
+            "week",
+            ".",
+            "Will",
+            "probably",
+            "be",
+            "in",
+            "on",
+            "Monday",
+            "sep",
+            "13",
+            "May",
+            "have",
+            "someone",
+            "with",
+            "interest",
+            ":",
+            "Option",
+            "on",
+            "property",
+            "in",
+            "Maricopa",
+            "Cty",
+            ".",
+            "In",
+            "non-attainment",
+            "area",
+            ".",
+            "Director",
+            "of",
+            "ERCs",
+            "and",
+            "Permitting",
+            "."
+        ],
+        [
+            "msg",
+            "8-23",
+            "Looking",
+            "for",
+            "2001",
+            "and",
+            "before",
+            ",",
+            "NOx",
+            "03-04",
+            "SIP",
+            "Call",
+            "Pat",
+            "Frazier-",
+            "VP",
+            "Operations",
+            ":",
+            "Meeting",
+            "with",
+            "on",
+            "Tuesday",
+            "sep",
+            "4",
+            "Greg",
+            "Davis",
+            ":",
+            "Amp-Ohio",
+            ":",
+            "SO2",
+            "15000",
+            "tons",
+            ":",
+            "320",
+            "tons",
+            "of",
+            "NOx",
+            "614-337-6221",
+            "x122",
+            "Gave",
+            "him",
+            "a",
+            "215",
+            "offer",
+            "on",
+            "SO2",
+            ":",
+            "15000",
+            "6500",
+            "for",
+            "150",
+            "'03-100",
+            "'04",
+            "6500",
+            "for",
+            "150",
+            "'03-100",
+            "'04",
+            "2600",
+            "airport",
+            "drive",
+            "msg",
+            "Sep",
+            "18",
+            "10,000",
+            "tons",
+            "of",
+            "SO2",
+            "current",
+            "vintage",
+            ":",
+            "ready",
+            "to",
+            "transact-"
+        ],
+        [
+            "c.",
+            "620",
+            "NOx",
+            "will",
+            "have",
+            "some",
+            "stuff",
+            "to",
+            "sell",
+            ":",
+            "will",
+            "take",
+            "about",
+            "a",
+            "month",
+            ":",
+            "msg",
+            "on",
+            "10-2"
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "no",
+            "answer",
+            ":"
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

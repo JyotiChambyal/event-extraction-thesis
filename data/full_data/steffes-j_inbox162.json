@@ -1,0 +1,222 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'following entities', 'indices': '1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please circulate', 'indices': '35 36'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "Amend_Data:Context: I-Data Value",
+                        "O",
+                        "O",
+                        "Amend_Data:Revision: B-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please note the following correction', 'indices': '0 1 2 3 4'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "The",
+            "following",
+            "entities",
+            "filed",
+            "for",
+            "bankruptcy",
+            "late",
+            "12/20",
+            "or",
+            "early",
+            "12/21",
+            ":",
+            "Tenant",
+            "Services",
+            ",",
+            "Inc",
+            ".",
+            "Enron",
+            "Federal",
+            "Solutions",
+            ",",
+            "Inc",
+            ".",
+            "Enron",
+            "Energy",
+            "Solutions",
+            ",",
+            "Inc",
+            ".",
+            "Enron",
+            "Merchant",
+            "Investments",
+            ",",
+            "Inc",
+            ".",
+            "Please",
+            "circulate",
+            "further",
+            "if",
+            "I",
+            "have",
+            "missed",
+            "anyone",
+            "."
+        ],
+        [
+            "Please",
+            "note",
+            "the",
+            "following",
+            "correction",
+            ":",
+            "Enron",
+            "Energy",
+            "Solutions",
+            ",",
+            "Inc.",
+            "should",
+            "be",
+            "Enron",
+            "Energy",
+            "Information",
+            "Solutions",
+            ",",
+            "Inc",
+            "."
+        ]
+    ]
+}

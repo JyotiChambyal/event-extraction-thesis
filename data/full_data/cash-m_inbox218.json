@@ -1,0 +1,229 @@
+{
+    "events": {
+        "turn_0": {
+            "Amend_Data": {
+                "labels": [
+                    [
+                        "Amend_Data:Context: B-Amend Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Context: B-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "Amend_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Data:Revision: B-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "Amend_Data:Revision: I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'made a couple of modifications', 'indices': '2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will send', 'indices': '42 43'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'this is the latest', 'indices': '2 3 4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "I",
+            "have",
+            "made",
+            "a",
+            "couple",
+            "of",
+            "modifications",
+            "to",
+            "the",
+            "attendance",
+            "policy",
+            "based",
+            "on",
+            "a",
+            "couple",
+            "of",
+            "suggestions",
+            "from",
+            "the",
+            "HR",
+            "Community",
+            "and",
+            "Legal",
+            ".",
+            "No",
+            "major",
+            "changes",
+            ".",
+            "Jenny",
+            "has",
+            "a",
+            "copy",
+            "of",
+            "the",
+            "revised",
+            "policy",
+            ".",
+            "Upon",
+            "her",
+            "approval",
+            ",",
+            "we",
+            "will",
+            "send",
+            "to",
+            "the",
+            "other",
+            "Infrastructure",
+            "Sr.",
+            "Directors/Directors",
+            "for",
+            "review",
+            "."
+        ],
+        [
+            "Michelle",
+            ",",
+            "this",
+            "is",
+            "the",
+            "latest",
+            "version",
+            ".",
+            "Thanks",
+            "."
+        ]
+    ]
+}

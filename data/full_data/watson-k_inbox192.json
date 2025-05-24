@@ -1,0 +1,198 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please e-mail to me a nonbinding preliminary bid letter', 'indices': '5 6 7 8 9 10 11 12 13'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'making a bid', 'indices': '17 18 19'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:B-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Let me look at it', 'indices': '1 2 3 4 5'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "No",
+            "word",
+            "from",
+            "Andrews",
+            "Kurth",
+            "Please",
+            "e-mail",
+            "to",
+            "me",
+            "a",
+            "nonbinding",
+            "preliminary",
+            "bid",
+            "letter",
+            ".",
+            "We",
+            "are",
+            "making",
+            "a",
+            "bid",
+            "for",
+            "some",
+            "pipeline",
+            "assets",
+            ".",
+            "Thanks"
+        ],
+        [
+            "Here",
+            "are",
+            "a",
+            "few",
+            "..."
+        ],
+        [
+            "FYI",
+            "Let",
+            "me",
+            "look",
+            "at",
+            "it",
+            "after",
+            "you",
+            "get",
+            "a",
+            "draft",
+            "done",
+            ".",
+            "The",
+            "bells",
+            "and",
+            "whistles",
+            "are",
+            "pretty",
+            "obvious",
+            "!",
+            "!"
+        ]
+    ]
+}

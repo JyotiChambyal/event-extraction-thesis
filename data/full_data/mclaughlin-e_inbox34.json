@@ -1,0 +1,100 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please give', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'DONE', 'indices': '0'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "give",
+            "Chance",
+            "Rabon",
+            "(",
+            "crabon",
+            "is",
+            "the",
+            "user",
+            "id",
+            ")",
+            "access",
+            "to",
+            "all",
+            "the",
+            "Portfolio",
+            "and",
+            "Book",
+            "codes",
+            "that",
+            "I",
+            "have",
+            "access",
+            "to",
+            "in",
+            "PortCalc",
+            ".",
+            "Thanks",
+            ",",
+            "Errol"
+        ],
+        [
+            "DONE"
+        ]
+    ]
+}

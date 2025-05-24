@@ -1,0 +1,162 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'File :', 'indices': '9 10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:B-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "Request_Action:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': '', 'indices': ''}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Suggested",
+            "revisions",
+            ".",
+            "Steve",
+            "Stojic",
+            "-",
+            "TranswesternSettlementOffer.doc",
+            "<",
+            "<",
+            "File",
+            ":",
+            "TranswesternSettlementOffer.doc",
+            ">",
+            ">"
+        ],
+        [
+            "I",
+            "have",
+            "some",
+            "questions",
+            "and",
+            "comments",
+            "on",
+            "this-",
+            "please",
+            "see",
+            "and",
+            "lets",
+            "discuss",
+            "before",
+            "ANYTHING",
+            "is",
+            "sent",
+            "over",
+            "to",
+            "the",
+            "FERC",
+            ".",
+            "I",
+            "think",
+            "some",
+            "of",
+            "the",
+            "changes",
+            "conform",
+            "to",
+            "the",
+            "draft",
+            "tariff",
+            "and",
+            "process/procedure",
+            ".",
+            "thanks",
+            "MK"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:B-Action Time",
+                        "Deliver_Action_Data:I-Action Time",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:B-Action Time",
+                        "Deliver_Action_Data:I-Action Time",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will not available', 'indices': '5 6 7'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "The",
+            "Cubes",
+            "on",
+            "the",
+            "intranet",
+            "will",
+            "not",
+            "available",
+            "from",
+            "7th",
+            "August",
+            "5",
+            "PM",
+            "till",
+            "8th",
+            "August",
+            "11",
+            "AM",
+            "due",
+            "to",
+            "server",
+            "maintenance",
+            ".",
+            "-Rao"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

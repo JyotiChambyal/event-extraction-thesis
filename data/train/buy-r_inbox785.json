@@ -1,0 +1,88 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': '< < 8-30-01.doc > >', 'indices': '0 1 2 3 4'}",
+                    "{'words': '< < SUMMARY.xls > >', 'indices': '5 6 7 8 9'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "<",
+            "<",
+            "8-30-01.doc",
+            ">",
+            ">",
+            "<",
+            "<",
+            "SUMMARY.xls",
+            ">",
+            ">",
+            "-",
+            "8-30-01.doc",
+            "-",
+            "SUMMARY.xls"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

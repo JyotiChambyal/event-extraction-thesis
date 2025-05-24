@@ -1,0 +1,188 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached are your sheets', 'indices': '3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"send me Eric Gadd 's sheets\", 'indices': '22 23 24 25 26 27'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "As",
+            "discussed",
+            ",",
+            "attached",
+            "are",
+            "your",
+            "sheets",
+            "for",
+            "bonus",
+            "and",
+            "merit",
+            ".",
+            "Thanks",
+            ",",
+            "Fran",
+            "Fagan",
+            "<",
+            "<",
+            "File",
+            ":",
+            "McCartyMerit.xls",
+            ">",
+            ">",
+            "<",
+            "<",
+            "File",
+            ":",
+            "mccartyBonusCommercial_UnP.xls",
+            ">",
+            ">"
+        ],
+        [
+            "Fran",
+            ",",
+            "If",
+            "Julie",
+            "'s",
+            "merit",
+            "needs",
+            "to",
+            "be",
+            "lump",
+            "sum",
+            ",",
+            "just",
+            "move",
+            "it",
+            "over",
+            "to",
+            "that",
+            "column",
+            ".",
+            "Also",
+            ",",
+            "send",
+            "me",
+            "Eric",
+            "Gadd",
+            "'s",
+            "sheets",
+            "as",
+            "well",
+            ".",
+            "Thanks",
+            ".",
+            "Dan"
+        ],
+        [
+            "Thanks",
+            ",",
+            "Fran"
+        ]
+    ]
+}

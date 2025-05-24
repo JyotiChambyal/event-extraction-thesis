@@ -1,0 +1,177 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Agenda",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Do you have an opening for lunch ?', 'indices': '0 1 2 3 4 5 6 7'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'is the', 'indices': '14 15'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "Amend_Meeting_Data:Context: B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'What about the first few days of February ?', 'indices': '2 3 4 5 6 7 8 9 10'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'what day works best for you', 'indices': '3 4 5 6 7 8'}"
+                ],
+                "extras": [
+                    "Query Items  : Meeting Date"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Do",
+            "you",
+            "have",
+            "an",
+            "opening",
+            "for",
+            "lunch",
+            "?",
+            "JGM"
+        ],
+        [
+            "Jesus",
+            ",",
+            "What",
+            "about",
+            "the",
+            "first",
+            "few",
+            "days",
+            "of",
+            "February",
+            "?",
+            "My",
+            "last",
+            "day",
+            "is",
+            "the",
+            "31st",
+            ".",
+            "Vince"
+        ],
+        [
+            "Let",
+            "me",
+            "know",
+            "what",
+            "day",
+            "works",
+            "best",
+            "for",
+            "you",
+            ".",
+            "My",
+            "schedule",
+            "is",
+            "open",
+            "in",
+            "early",
+            "Feb.",
+            "JGM"
+        ]
+    ]
+}

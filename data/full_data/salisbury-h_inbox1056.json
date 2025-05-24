@@ -1,0 +1,112 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Here is our latest internal view', 'indices': '0 1 2 3 4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Here",
+            "is",
+            "our",
+            "latest",
+            "internal",
+            "view",
+            "on",
+            "the",
+            "month",
+            "of",
+            "July",
+            ".",
+            "Do",
+            "n't",
+            "forget",
+            "the",
+            "NWS",
+            "comes",
+            "out",
+            "with",
+            "their",
+            "forecast",
+            "for",
+            "the",
+            "month",
+            "of",
+            "July",
+            "at",
+            "around",
+            "noon",
+            "your",
+            "time",
+            ".",
+            "-",
+            "Dave"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

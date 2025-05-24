@@ -1,0 +1,208 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Revised Draft enclosed', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:I-Deliver Time",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"here 's the electronic version\", 'indices': '2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Revised",
+            "Draft",
+            "enclosed",
+            ".",
+            "I",
+            "was",
+            "a",
+            "little",
+            "confused",
+            "about",
+            "what",
+            "you",
+            "wanted",
+            "for",
+            "the",
+            "term",
+            "of",
+            "the",
+            "Gas",
+            "Sales",
+            "Transactions",
+            "on",
+            "Appendix",
+            "1",
+            ".",
+            "Ken",
+            "<",
+            "<",
+            "PSEG",
+            "Draft",
+            "LOU",
+            "dated",
+            "(",
+            "October",
+            "16",
+            ",",
+            "2001",
+            ")",
+            ".DOC",
+            ">",
+            ">",
+            "-",
+            "PSEG",
+            "Draft",
+            "LOU",
+            "dated",
+            "(",
+            "October",
+            "16",
+            ",",
+            "2001",
+            ")",
+            ".DOC"
+        ],
+        [
+            "Sorry",
+            "for",
+            "the",
+            "delay",
+            "."
+        ],
+        [
+            "Jeff",
+            "-",
+            "here",
+            "'s",
+            "the",
+            "electronic",
+            "version",
+            "of",
+            "the",
+            "LOU",
+            ".",
+            "Have",
+            "a",
+            "great",
+            "weekend",
+            "!",
+            "-",
+            "Gil",
+            "-"
+        ]
+    ]
+}

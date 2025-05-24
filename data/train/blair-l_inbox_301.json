@@ -1,0 +1,116 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "Request_Action_Data:Context: B-Request Members",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'where are we', 'indices': '2 3 4'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Let",
+            "'s",
+            "discuss",
+            "again",
+            "on",
+            "Monday",
+            "if",
+            "we",
+            "need",
+            "to",
+            "relook",
+            "at",
+            "hard",
+            "coding",
+            "the",
+            "allocation",
+            "based",
+            "on",
+            "discussions",
+            "with",
+            "Kent",
+            "and",
+            "Frank",
+            ".",
+            "Thanks",
+            ".",
+            "Lynn"
+        ],
+        [
+            "John",
+            ",",
+            "where",
+            "are",
+            "we",
+            "on",
+            "this",
+            "item",
+            "?",
+            "Thanks",
+            ".",
+            "Lynn"
+        ]
+    ]
+}

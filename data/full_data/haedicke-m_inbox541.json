@@ -1,0 +1,120 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached link', 'indices': '15 16'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Is this just someone', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Dear",
+            "Mr.",
+            "Frevert",
+            ",",
+            "Please",
+            "feel",
+            "free",
+            "to",
+            "contact",
+            "me",
+            "at",
+            "the",
+            "coordinates",
+            "in",
+            "the",
+            "attached",
+            "link",
+            "should",
+            "you",
+            "be",
+            "so",
+            "inclined",
+            ".",
+            "Thank",
+            "you",
+            "Daryl",
+            "J.",
+            "Hudson",
+            "III",
+            "http",
+            ":",
+            "//lawyers.com/djhudsonlaw/default.htm"
+        ],
+        [
+            "Is",
+            "this",
+            "just",
+            "someone",
+            "looking",
+            "for",
+            "business",
+            "?",
+            "Mark"
+        ]
+    ]
+}

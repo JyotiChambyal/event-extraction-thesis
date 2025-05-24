@@ -1,0 +1,272 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_3": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_4": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'watched', 'indices': '4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_5": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'watches', 'indices': '7'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_6": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "__________________________________________________",
+            "Do",
+            "You",
+            "Yahoo",
+            "!",
+            "?",
+            "Yahoo",
+            "!",
+            "GeoCities",
+            "-",
+            "quick",
+            "and",
+            "easy",
+            "web",
+            "site",
+            "hosting",
+            ",",
+            "just",
+            "$",
+            "8.95/month",
+            ".",
+            "http",
+            ":",
+            "//geocities.yahoo.com/ps/info1"
+        ],
+        [
+            ":",
+            "+",
+            ")"
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "Has",
+            "to",
+            "be",
+            "on",
+            "the",
+            "top",
+            "of",
+            "the",
+            "list",
+            "of",
+            "funny",
+            "stuff"
+        ],
+        [
+            "I",
+            "like",
+            "that",
+            "he",
+            "watched",
+            "Sponge",
+            "Bob",
+            "Square",
+            "Pants",
+            "...."
+        ],
+        [
+            "Me",
+            ",",
+            "too",
+            ".",
+            "My",
+            "little",
+            "boy",
+            "watches",
+            "it",
+            "all",
+            "the",
+            "time",
+            ".",
+            "Maybe",
+            "we",
+            "can",
+            "watch",
+            "it",
+            "together",
+            "!"
+        ],
+        [
+            "Does",
+            "n't",
+            "sound",
+            "too",
+            "bad",
+            "."
+        ]
+    ]
+}

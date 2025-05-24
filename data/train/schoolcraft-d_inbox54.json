@@ -1,0 +1,136 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Deliver members",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': '', 'indices': ''}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "mom",
+            ",",
+            "gabrielle",
+            "Gabrielle",
+            "has",
+            "sent",
+            "you",
+            "something",
+            "special",
+            "that",
+            "is",
+            "sure",
+            "to",
+            "make",
+            "your",
+            "day",
+            "!",
+            "Click",
+            "on",
+            "the",
+            "link",
+            "below",
+            ",",
+            "or",
+            "copy-and-paste",
+            "the",
+            "link",
+            "into",
+            "your",
+            "browser",
+            ":",
+            "http",
+            ":",
+            "//www.passitaround.com/passit.pd",
+            "?",
+            "i1885264",
+            "&",
+            "m73",
+            "&",
+            "rr=y",
+            "&",
+            "source=passit999",
+            "Have",
+            "a",
+            "great",
+            "day",
+            "!"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

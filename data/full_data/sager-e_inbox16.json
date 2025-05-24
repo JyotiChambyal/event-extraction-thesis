@@ -1,0 +1,186 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "Deliver_Meeting_Data:I-Meeting Location",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Meeting will take place', 'indices': '18 19 20 21'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Members",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please adjust', 'indices': '38 39'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "Note",
+            ":",
+            "Conference",
+            "Room",
+            "EB2831",
+            "is",
+            "unavailable",
+            "for",
+            "the",
+            "next",
+            "two",
+            "weeks",
+            ".",
+            "Therefore",
+            "the",
+            "Underwriting",
+            "Staff",
+            "Meeting",
+            "will",
+            "take",
+            "place",
+            "@",
+            "10:00am",
+            "in",
+            "Conference",
+            "Room",
+            "EB2868",
+            "for",
+            "Wednesday",
+            "October",
+            "31",
+            "and",
+            "Wednesday",
+            ",",
+            "November",
+            "7",
+            ".",
+            "Please",
+            "adjust",
+            "your",
+            "calendars",
+            "accordingly",
+            "."
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

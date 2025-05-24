@@ -1,0 +1,72 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"Here is Jeff 's new trailer\", 'indices': '0 1 2 3 4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'wan na buy an Airstream trailer ?', 'indices': '0 1 2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Members"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Here",
+            "is",
+            "Jeff",
+            "'s",
+            "new",
+            "trailer",
+            "."
+        ],
+        [
+            "wan",
+            "na",
+            "buy",
+            "an",
+            "Airstream",
+            "trailer",
+            "?",
+            "?",
+            "?",
+            "?"
+        ]
+    ]
+}

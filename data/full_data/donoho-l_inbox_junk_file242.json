@@ -1,0 +1,172 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "Deliver_Meeting_Data:I-Meeting Agenda",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'meeting has been scheduled', 'indices': '1 2 3 4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "Amend_Meeting_Data:Context: B-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Time",
+                        "Amend_Meeting_Data:Revision: I-Meeting Time",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'meeting has been rescheduled', 'indices': '1 2 3 4'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "A",
+            "meeting",
+            "has",
+            "been",
+            "scheduled",
+            "for",
+            "next",
+            "Tuesday",
+            ",",
+            "February",
+            "5",
+            "in",
+            "EB1336",
+            "to",
+            "discuss",
+            "the",
+            "following",
+            ":",
+            "TW",
+            "fuel",
+            "sales",
+            ",",
+            "imbalances",
+            "and",
+            "UAF",
+            "TW",
+            "Daily",
+            "Balancing",
+            "Report",
+            "Please",
+            "let",
+            "me",
+            "know",
+            "if",
+            "you",
+            "have",
+            "a",
+            "conflict",
+            ".",
+            "Jan",
+            "Moore"
+        ],
+        [
+            "This",
+            "meeting",
+            "has",
+            "been",
+            "rescheduled",
+            "for",
+            "Wednesday",
+            ",",
+            "February",
+            "13",
+            "@",
+            "3:00",
+            "p.m.",
+            "in",
+            "EB1336",
+            ".",
+            "Please",
+            "let",
+            "me",
+            "know",
+            "if",
+            "you",
+            "have",
+            "a",
+            "conflict",
+            "."
+        ]
+    ]
+}

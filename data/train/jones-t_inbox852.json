@@ -1,0 +1,240 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached memo', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'forward me a copy', 'indices': '2 3 4 5'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will have a messenger', 'indices': '3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "find",
+            "attached",
+            "memo",
+            "from",
+            "Kimberly",
+            "Summe",
+            ",",
+            "General",
+            "Counsel",
+            "in",
+            "reference",
+            "to",
+            "the",
+            "User",
+            "'s",
+            "Guide",
+            "to",
+            "the",
+            "2001",
+            "ISDA",
+            "Margin",
+            "Provisions",
+            ".",
+            "Kind",
+            "Regards",
+            ",",
+            "Breda",
+            "Walsh",
+            "<",
+            "<",
+            "memo",
+            "to",
+            "committees.doc",
+            ">",
+            ">",
+            "-",
+            "memo",
+            "to",
+            "committees.doc",
+            "<",
+            "<",
+            "File",
+            ":",
+            "memo",
+            "to",
+            "committees.doc",
+            ">",
+            ">"
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "Could",
+            "someone",
+            "forward",
+            "me",
+            "a",
+            "copy",
+            "of",
+            "this",
+            "?",
+            "Carol",
+            "St.",
+            "Clair"
+        ],
+        [
+            "Carol",
+            ",",
+            "I",
+            "will",
+            "have",
+            "a",
+            "messenger",
+            "deliver",
+            "the",
+            "``",
+            "2001",
+            "ISDA",
+            "Margin",
+            "Provisions",
+            "''",
+            "publication",
+            "to",
+            "your",
+            "EB4539",
+            "location",
+            ".",
+            "Susan"
+        ]
+    ]
+}

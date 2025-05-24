@@ -1,0 +1,180 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"here 's the requested information\", 'indices': '6 7 8 9 10'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Are the units used', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "George",
+            ",",
+            "Per",
+            "our",
+            "conversation",
+            ",",
+            "here",
+            "'s",
+            "the",
+            "requested",
+            "information",
+            ".",
+            "These",
+            "forecasts",
+            "are",
+            "constantly",
+            "evolving",
+            "and",
+            "this",
+            "was",
+            "a",
+            "snapshot",
+            "a",
+            "few",
+            "weeks",
+            "ago",
+            ",",
+            "but",
+            "it",
+            "generally",
+            "provides",
+            "the",
+            "required",
+            "information",
+            ".",
+            "If",
+            "you",
+            "wish",
+            "to",
+            "get",
+            "into",
+            "the",
+            "detail",
+            "we",
+            "could",
+            "spend",
+            "some",
+            "time",
+            "next",
+            "week",
+            ".",
+            "Mat",
+            "<",
+            "<",
+            "File",
+            ":",
+            "New",
+            "CA",
+            "Power",
+            "Generation.xls",
+            ">",
+            ">"
+        ],
+        [
+            "Are",
+            "the",
+            "units",
+            "used",
+            "MMBtu",
+            "or",
+            "cubic",
+            "feet",
+            "."
+        ]
+    ]
+}

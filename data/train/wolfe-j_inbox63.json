@@ -1,0 +1,281 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "Deliver_Data:B-Data Value"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'try one of these', 'indices': '10 11 12 13'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Want to try guys one of these ?', 'indices': '8 9 10 14 11 12 13 15'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Members",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"do n't want you bringing\", 'indices': '1 2 3 4 5'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'i pick', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "For",
+            "all",
+            "of",
+            "those",
+            "who",
+            "are",
+            "looking",
+            "......",
+            "Want",
+            "to",
+            "try",
+            "one",
+            "of",
+            "these",
+            "guys",
+            "?",
+            "?",
+            "?",
+            "?",
+            "-",
+            "Men1.jpg",
+            "-",
+            "Men2.jpg",
+            "-",
+            "Men3.jpg",
+            "-",
+            "Men4.jpg",
+            "-",
+            "Men5.jpg",
+            "-",
+            "Men.jpg"
+        ],
+        [
+            "I",
+            "do",
+            "n't",
+            "want",
+            "you",
+            "bringing",
+            "any",
+            "of",
+            "these",
+            "guys",
+            "home",
+            "to",
+            "meet",
+            "your",
+            "parents",
+            "!",
+            "!",
+            "!",
+            "!",
+            "Ash",
+            ":",
+            "I",
+            "do",
+            "n't",
+            "think",
+            "Wally",
+            "will",
+            "end",
+            "up",
+            "quite",
+            "as",
+            "hairy",
+            "as",
+            "photo",
+            "#",
+            "2",
+            "!",
+            "!",
+            "!",
+            "!",
+            "!",
+            "!",
+            "!"
+        ],
+        [
+            "Ashley",
+            "Landry"
+        ],
+        [
+            "i",
+            "pick",
+            "pic",
+            "number",
+            "2",
+            ".",
+            "b",
+            "."
+        ]
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "http",
+            ":",
+            "//www.latimes.com/news/state/20010601/t000045783.html",
+            "Sue",
+            "Mara"
+        ],
+        [
+            "Jeff",
+            ":",
+            "Per",
+            "our",
+            "conversation",
+            "re",
+            ":",
+            "California",
+            ",",
+            "chris"
+        ]
+    ]
+}

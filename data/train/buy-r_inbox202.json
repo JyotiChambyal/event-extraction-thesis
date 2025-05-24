@@ -1,0 +1,397 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'There will be a Management Committee meeting', 'indices': '0 1 2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Meeting Name",
+                        "Request_Meeting_Data:Context: I-Meeting Name",
+                        "Request_Meeting_Data:Context: I-Meeting Name",
+                        "Request_Meeting_Data:Context: I-Meeting Name",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Meeting Date",
+                        "Request_Meeting_Data:Context: I-Meeting Date",
+                        "Request_Meeting_Data:Context: I-Meeting Date",
+                        "Request_Meeting_Data:Context: I-Meeting Date",
+                        "Request_Meeting_Data:Context: I-Meeting Date",
+                        "Request_Meeting_Data:Context: I-Meeting Date",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Meeting Time",
+                        "Request_Meeting_Data:Context: I-Meeting Time",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'let me know if you will attend', 'indices': '19 20 21 22 23 24 25'}"
+                ],
+                "extras": [
+                    "Query Items  : Meeting Location"
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'planning', 'indices': '2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting_Data:Context: B-Request Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'provide a number', 'indices': '18 19 20'}"
+                ],
+                "extras": [
+                    "Query Items  : Meeting Location"
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will call', 'indices': '10 11'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'is the', 'indices': '16 17'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'please call', 'indices': '10 11'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "There",
+            "will",
+            "be",
+            "a",
+            "Management",
+            "Committee",
+            "meeting",
+            "on",
+            "Wednesday",
+            ",",
+            "January",
+            "2",
+            ",",
+            "2002",
+            "@",
+            "11:00",
+            "a.m",
+            ".",
+            "Please",
+            "let",
+            "me",
+            "know",
+            "if",
+            "you",
+            "will",
+            "attend",
+            "in",
+            "person",
+            "or",
+            "via",
+            "conference",
+            "call",
+            ".",
+            "Thanks",
+            ".",
+            "Rosie"
+        ],
+        [
+            "I",
+            "am",
+            "planning",
+            "on",
+            "being",
+            "out",
+            "all",
+            "week",
+            ".",
+            "I",
+            "will",
+            "call",
+            "in",
+            ".",
+            "I",
+            "assume",
+            "you",
+            "will",
+            "provide",
+            "a",
+            "number",
+            ".",
+            "Thanks",
+            ",",
+            "Rick",
+            "Buy",
+            "(",
+            "Happy",
+            "New",
+            "Year",
+            ")"
+        ],
+        [
+            "Happy",
+            "New",
+            "Year",
+            "to",
+            "you",
+            ",",
+            "Rick",
+            "!",
+            "Yes",
+            ",",
+            "please",
+            "call",
+            "1-801-983-4013",
+            ".",
+            "Ken",
+            "Lay",
+            "is",
+            "the",
+            "reference",
+            ".",
+            "Rosie"
+        ]
+    ]
+}

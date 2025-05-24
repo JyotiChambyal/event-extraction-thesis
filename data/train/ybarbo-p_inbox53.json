@@ -1,0 +1,488 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Let me know', 'indices': '27 28 29'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Request_Meeting": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Members",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Agenda",
+                        "Request_Meeting:B-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Meeting:B-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "Request_Meeting:I-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Can you meet', 'indices': '20 21 22'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            },
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"'m out\", 'indices': '41 42'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Today is good', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            },
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Time",
+                        "Amend_Meeting_Data:Revision: I-Meeting Time",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'How about 12 noon', 'indices': '7 8 9 10'}"
+                ],
+                "extras": [
+                    "Amend Action : "
+                ]
+            },
+            "Request_Meeting_Data": {
+                "labels": [
+                    [
+                        "Request_Meeting_Data:Context: B-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'What time ?', 'indices': '4 5 6'}"
+                ],
+                "extras": [
+                    "Query Items  : Meeting Time"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Members",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': '12 is good for me', 'indices': '16 17 18 19 20'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Positive"
+                ]
+            },
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "Amend_Meeting_Data:Revision: I-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Do you want to meet in front', 'indices': '0 1 2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Amend Action : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Hi",
+            "there",
+            "!",
+            "I",
+            "got",
+            "your",
+            "message",
+            "on",
+            "your",
+            "marriage",
+            "!",
+            "CONGRATULATIONS",
+            "!",
+            "I",
+            "'m",
+            "so",
+            "happy",
+            "for",
+            "you",
+            ".",
+            "Can",
+            "you",
+            "meet",
+            "for",
+            "lunch",
+            "today",
+            "?",
+            "Let",
+            "me",
+            "know",
+            ".",
+            "Wed",
+            "and",
+            "Thurs",
+            "are",
+            "not",
+            "good",
+            "for",
+            "me",
+            "and",
+            "I",
+            "'m",
+            "out",
+            "on",
+            "Friday",
+            ".",
+            "So",
+            "if",
+            "today",
+            "is",
+            "not",
+            "good",
+            "maybe",
+            "sometime",
+            "next",
+            "week",
+            ".",
+            "Talk",
+            "to",
+            "you",
+            "later",
+            ".",
+            "Ramona",
+            "Rodriguez"
+        ],
+        [
+            "Today",
+            "is",
+            "good",
+            ".",
+            "What",
+            "time",
+            "?",
+            "How",
+            "about",
+            "12",
+            "noon",
+            "?",
+            "Paul"
+        ],
+        [
+            "Do",
+            "you",
+            "want",
+            "to",
+            "meet",
+            "in",
+            "front",
+            "of",
+            "your",
+            "building",
+            "and",
+            "maybe",
+            "go",
+            "to",
+            "Treebeards",
+            "?",
+            "12",
+            "is",
+            "good",
+            "for",
+            "me",
+            "."
+        ]
+    ]
+}

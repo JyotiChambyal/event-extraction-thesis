@@ -1,0 +1,116 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'broke', 'indices': '6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Did I send', 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Description"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Nope', 'indices': '0'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Negative"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Thanks",
+            "for",
+            "the",
+            "cookies",
+            "-",
+            "I",
+            "broke",
+            "down",
+            "and",
+            "had",
+            "a",
+            "second",
+            "!",
+            "!",
+            "Jane",
+            "Wilhite",
+            "ext",
+            ".",
+            "35063"
+        ],
+        [
+            "Did",
+            "I",
+            "send",
+            "this",
+            "to",
+            "you",
+            "already",
+            "?"
+        ],
+        [
+            "Nope",
+            ",",
+            "thanks",
+            "!"
+        ]
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Below is the email', 'indices': '0 1 2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Request_Action_Data:Context: B-Action Members",
+                        "Request_Action_Data:Context: I-Action Members",
+                        "Request_Action_Data:Context: I-Action Members",
+                        "Request_Action_Data:Context: I-Action Members",
+                        "Request_Action_Data:Context: I-Action Members",
+                        "Request_Action_Data:Context: B-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "Request_Action_Data:Context: I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Has everyone named on this list approved/confirmed', 'indices': '0 1 2 3 4 5 6'}"
+                ],
+                "extras": [
+                    "Query Items  : Action Members"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'seen', 'indices': '1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : Negative"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Below",
+            "is",
+            "the",
+            "email",
+            "copy",
+            "of",
+            "the",
+            "ENW",
+            "summary",
+            ".",
+            "The",
+            "highlighted",
+            "areas",
+            "indicated",
+            "follow-up",
+            "needed",
+            "to",
+            "ensure",
+            "appropriate",
+            "contractor",
+            "numbers",
+            ".",
+            "<",
+            "<",
+            "File",
+            ":",
+            "ENWsummary4.xls",
+            ">",
+            ">"
+        ],
+        [
+            "Has",
+            "everyone",
+            "named",
+            "on",
+            "this",
+            "list",
+            "approved/confirmed",
+            "the",
+            "numbers",
+            "by",
+            "their",
+            "name",
+            "?",
+            "Thanks",
+            ".",
+            "GP"
+        ],
+        [
+            "Havent",
+            "seen",
+            "the",
+            "summary",
+            ".",
+            "Mark",
+            "Pickering"
+        ]
+    ]
+}

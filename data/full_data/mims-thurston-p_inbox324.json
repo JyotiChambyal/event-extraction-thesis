@@ -1,0 +1,126 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "Deliver_Action_Data:B-Action Time",
+                        "Deliver_Action_Data:I-Action Time",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "Deliver_Action_Data:B-Action Time",
+                        "Deliver_Action_Data:I-Action Time",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'GOT', 'indices': '10'}",
+                    "{'words': 'LEFT', 'indices': '16'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Hey",
+            "Mama",
+            ",",
+            "You",
+            "rolling",
+            "?"
+        ],
+        [
+            "YEA",
+            "MAN",
+            "......................",
+            "YOU",
+            "JUST",
+            "SAY",
+            "THE",
+            "TIME",
+            "........................",
+            "I",
+            "GOT",
+            "HERE",
+            "AT",
+            "6:30",
+            "A.M.",
+            "AND",
+            "LEFT",
+            "HERE",
+            "AT",
+            "8:30",
+            "P.M.",
+            "LAST",
+            "NIGHT",
+            "......................................................"
+        ]
+    ]
+}

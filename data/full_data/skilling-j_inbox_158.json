@@ -1,0 +1,86 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Good",
+            "job",
+            ",",
+            "team",
+            "http",
+            ":",
+            "//www.microsoft.com/windows/windowsmedia/en/business/demos.asp",
+            "#",
+            "darden"
+        ],
+        [
+            "I",
+            "thought",
+            "you",
+            "might",
+            "want",
+            "to",
+            "see",
+            "where",
+            "the",
+            "Darden",
+            "case",
+            "has",
+            "gone",
+            ".",
+            "John"
+        ]
+    ]
+}

@@ -1,0 +1,396 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached are your sheets', 'indices': '3 4 5 6'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"send me Eric Gadd 's sheets\", 'indices': '22 23 24 25 26 27'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_2": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': '< < File : GaddBonusCommercial_UnP.xls > >', 'indices': '0 1 2 3 4 5 6'}",
+                    "{'words': '< < File : GaddMerit.xls > >', 'indices': '7 8 9 10 11 12 13'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'See attached', 'indices': '2 3'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_4": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'sent', 'indices': '5'}",
+                    "{'words': 'did not receive', 'indices': '28 29 30'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "As",
+            "discussed",
+            ",",
+            "attached",
+            "are",
+            "your",
+            "sheets",
+            "for",
+            "bonus",
+            "and",
+            "merit",
+            ".",
+            "Thanks",
+            ",",
+            "Fran",
+            "Fagan",
+            "Sr.",
+            "HR",
+            "Rep",
+            "713.853.5219",
+            "<",
+            "<",
+            "File",
+            ":",
+            "McCartyMerit.xls",
+            ">",
+            ">",
+            "<",
+            "<",
+            "File",
+            ":",
+            "mccartyBonusCommercial_UnP.xls",
+            ">",
+            ">"
+        ],
+        [
+            "Fran",
+            ",",
+            "If",
+            "Julie",
+            "'s",
+            "merit",
+            "needs",
+            "to",
+            "be",
+            "lump",
+            "sum",
+            ",",
+            "just",
+            "move",
+            "it",
+            "over",
+            "to",
+            "that",
+            "column",
+            ".",
+            "Also",
+            ",",
+            "send",
+            "me",
+            "Eric",
+            "Gadd",
+            "'s",
+            "sheets",
+            "as",
+            "well",
+            ".",
+            "Thanks",
+            ".",
+            "Dan"
+        ],
+        [
+            "<",
+            "<",
+            "File",
+            ":",
+            "GaddBonusCommercial_UnP.xls",
+            ">",
+            ">",
+            "<",
+            "<",
+            "File",
+            ":",
+            "GaddMerit.xls",
+            ">",
+            ">",
+            "Thanks",
+            ",",
+            "Fran"
+        ],
+        [
+            "Fran",
+            ",",
+            "See",
+            "attached",
+            "Dan"
+        ],
+        [
+            "fyi-",
+            "The",
+            "sheets",
+            "have",
+            "been",
+            "sent",
+            "to",
+            "Miller/Neubauer",
+            ",",
+            "Kilmer",
+            ",",
+            "Hayes",
+            "and",
+            "Harris",
+            ".",
+            "Also",
+            ",",
+            "if",
+            "you",
+            "meant",
+            "to",
+            "send",
+            "me",
+            "your",
+            "completed",
+            "sheets",
+            ",",
+            "I",
+            "did",
+            "not",
+            "receive",
+            "the",
+            "attachments",
+            ".",
+            "Thanks"
+        ]
+    ]
+}

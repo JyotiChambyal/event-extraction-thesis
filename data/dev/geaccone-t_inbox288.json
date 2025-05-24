@@ -1,0 +1,80 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Per",
+            "your",
+            "request",
+            ".",
+            "Please",
+            "let",
+            "me",
+            "know",
+            "if",
+            "you",
+            "have",
+            "further",
+            "questions",
+            ".",
+            "Thanks",
+            "."
+        ],
+        [
+            "Tracy",
+            ",",
+            "FYI",
+            ".",
+            "Ag"
+        ]
+    ]
+}

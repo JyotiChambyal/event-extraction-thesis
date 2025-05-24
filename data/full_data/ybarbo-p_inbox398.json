@@ -1,0 +1,399 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "Deliver_Meeting_Data:I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "Deliver_Meeting_Data:I-Meeting Date",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "Deliver_Meeting_Data:I-Meeting Time",
+                        "O",
+                        "Deliver_Meeting_Data:B-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Meeting has been scheduled', 'indices': '9 10 11 12'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please mark', 'indices': '25 26'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "Amend_Meeting_Data:Context: B-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "Amend_Meeting_Data:Revision: I-Meeting Date",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Time",
+                        "Amend_Meeting_Data:Revision: I-Meeting Time",
+                        "Amend_Meeting_Data:Revision: I-Meeting Time",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Location",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Meeting has been moved', 'indices': '5 6 7 8'}"
+                ],
+                "extras": [
+                    "Amend Action : Update"
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please mark', 'indices': '16 17'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "Amend_Meeting_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Amend_Meeting_Data:Context: B-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "Amend_Meeting_Data:Context: I-Meeting Name",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Time",
+                        "O",
+                        "Amend_Meeting_Data:Revision: B-Meeting Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"will move Steve 's meeting\", 'indices': '11 12 13 14 15'}"
+                ],
+                "extras": [
+                    "Amend Action : "
+                ]
+            },
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please adjust', 'indices': '21 22'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "be",
+            "informed",
+            ",",
+            "Steve",
+            "'s",
+            "2002",
+            "Plan",
+            "Strategy",
+            "Meeting",
+            "has",
+            "been",
+            "scheduled",
+            "for",
+            "Tuesday",
+            ",",
+            "October",
+            "9",
+            ",",
+            "10:00",
+            "-",
+            "11:00a",
+            "in",
+            "EB-1336",
+            ".",
+            "Please",
+            "mark",
+            "your",
+            "calendars",
+            "accordingly",
+            ".",
+            "adr",
+            "Audrey",
+            "D.",
+            "Robertson"
+        ],
+        [
+            "Steve",
+            "'s",
+            "2002",
+            "Plan",
+            "Strategy",
+            "Meeting",
+            "has",
+            "been",
+            "moved",
+            "to",
+            "a",
+            "new",
+            "date",
+            "and",
+            "time",
+            ".",
+            "Please",
+            "mark",
+            "your",
+            "calendars",
+            "to",
+            "reflect",
+            ":",
+            "Tuesday",
+            ",",
+            "October",
+            "23",
+            ",",
+            "10:00",
+            "-",
+            "11:00",
+            ",",
+            "EB-1336",
+            "adr",
+            "Audrey",
+            "D.",
+            "Robertson"
+        ],
+        [
+            "Because",
+            "of",
+            "the",
+            "scheduled",
+            "Employee",
+            "Meeting",
+            "at",
+            "the",
+            "Hyatt",
+            ",",
+            "we",
+            "will",
+            "move",
+            "Steve",
+            "'s",
+            "meeting",
+            "to",
+            "9:00a",
+            "on",
+            "Tuesday",
+            ".",
+            "Please",
+            "adjust",
+            "your",
+            "calendars",
+            "accordingly",
+            ".",
+            "adr",
+            "Audrey",
+            "D.",
+            "Robertson"
+        ]
+    ]
+}

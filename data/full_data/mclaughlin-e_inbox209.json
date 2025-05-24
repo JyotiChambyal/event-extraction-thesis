@@ -1,0 +1,159 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'enjoyed', 'indices': '8'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'mine is', 'indices': '0 1'}",
+                    "{'words': 'mine is', 'indices': '0 1'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "(",
+            "Just",
+            "in",
+            "case",
+            "...",
+            ")",
+            "I",
+            "have",
+            "enjoyed",
+            "working",
+            "with",
+            "all",
+            "of",
+            "you",
+            "talented",
+            "people",
+            ".",
+            "Good",
+            "Luck",
+            "&",
+            "Thanks",
+            ",",
+            "Hal",
+            "McKinney",
+            "work",
+            "-",
+            "(",
+            "713",
+            ")",
+            "345-3707",
+            "cell",
+            "-",
+            "(",
+            "281",
+            ")",
+            "773-7982",
+            "hmckinney3",
+            "@",
+            "yahoo.com"
+        ],
+        [
+            "mine",
+            "is",
+            ":",
+            "home",
+            "281",
+            "532",
+            "4627",
+            "email",
+            "randyshona",
+            "@",
+            "hotmail.com",
+            "Best",
+            "regards"
+        ]
+    ]
+}

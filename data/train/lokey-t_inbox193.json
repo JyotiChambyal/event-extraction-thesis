@@ -1,0 +1,110 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached the CORRECT agenda', 'indices': '2 3 4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Please",
+            "find",
+            "attached",
+            "the",
+            "CORRECT",
+            "agenda",
+            "for",
+            "the",
+            "October",
+            "8th",
+            "Regulatory",
+            "Roundtable",
+            ".",
+            "The",
+            "agenda",
+            "sent",
+            "in",
+            "the",
+            "previous",
+            "email",
+            "was",
+            "not",
+            "updated",
+            ".",
+            "Thank",
+            "you",
+            ",",
+            "and",
+            "we",
+            "apologize",
+            "for",
+            "any",
+            "inconvenience",
+            "."
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

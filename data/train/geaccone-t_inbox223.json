@@ -1,0 +1,102 @@
+{
+    "events": {
+        "turn_0": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "Request_Action:B-Action Members",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please review', 'indices': '6 7'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Tom",
+            ",",
+            "Patty",
+            "and",
+            "Kate",
+            "-",
+            "Please",
+            "review",
+            "at",
+            "your",
+            "earliest",
+            "convenience",
+            "and",
+            "let",
+            "me",
+            "know",
+            "if",
+            "you",
+            "have",
+            "any",
+            "comments",
+            "before",
+            "I",
+            "post",
+            "in",
+            "our",
+            "database",
+            ".",
+            "Thanks",
+            ".",
+            "Mary"
+        ],
+        [
+            "FYI"
+        ]
+    ]
+}

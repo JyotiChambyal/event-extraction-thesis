@@ -1,0 +1,220 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:B-Action Date",
+                        "Deliver_Action_Data:I-Action Date",
+                        "Deliver_Action_Data:B-Action Time",
+                        "Deliver_Action_Data:I-Action Time",
+                        "Deliver_Action_Data:B-Action Date",
+                        "O",
+                        "Deliver_Action_Data:B-Action Time",
+                        "Deliver_Action_Data:B-Action Date",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'will be down', 'indices': '3 4 5'}",
+                    "{'words': 'will let you all know', 'indices': '20 21 22 23 24'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please inform', 'indices': '15 16'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_3": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'is up', 'indices': '4 5'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Sitara",
+            "Reporting",
+            "system",
+            "will",
+            "be",
+            "down",
+            "this",
+            "weekend",
+            "from",
+            "11.45AM",
+            "Saturday",
+            "to",
+            "8AM",
+            "Sunday.As",
+            "soon",
+            "as",
+            "system",
+            "is",
+            "up",
+            "I",
+            "will",
+            "let",
+            "you",
+            "all",
+            "know",
+            ".",
+            "thanks",
+            "Krishna"
+        ],
+        [
+            "If",
+            "we",
+            "fallback",
+            "to",
+            "moe",
+            ",",
+            "it",
+            "will",
+            "be",
+            "around",
+            "12:00",
+            "noon",
+            "on",
+            "Sunday",
+            ".",
+            "Please",
+            "inform",
+            "the",
+            "users",
+            "."
+        ],
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "Sitara/AEP",
+            "Reporting",
+            "production",
+            "system",
+            "is",
+            "up",
+            ".",
+            "thanks",
+            "Krishna"
+        ]
+    ]
+}

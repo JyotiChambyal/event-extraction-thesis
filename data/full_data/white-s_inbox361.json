@@ -1,0 +1,192 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Do we have any transactions', 'indices': '0 1 2 3 4'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Callaway",
+            "Golf",
+            "Company",
+            "International",
+            "Rectifier",
+            "Corporation",
+            "Conexant",
+            "Systems",
+            ",",
+            "Inc",
+            ".",
+            "Davis",
+            "Wire",
+            "Corporation",
+            "Fresh",
+            "Express",
+            "Incorporated",
+            "CNC",
+            "Containers",
+            "Corporation",
+            "Let",
+            "me",
+            "know",
+            "if",
+            "you",
+            "need",
+            "more",
+            "information"
+        ],
+        [
+            "Do",
+            "we",
+            "have",
+            "any",
+            "transactions",
+            "with",
+            "these",
+            "counterparties",
+            "similar",
+            "to",
+            "Hanson",
+            "?",
+            "Stacey"
+        ],
+        [
+            "Stacey",
+            ",",
+            "The",
+            "only",
+            "one",
+            "I",
+            "want",
+            "to",
+            "look",
+            "into",
+            "is",
+            "Callaway",
+            ",",
+            "the",
+            "rest",
+            "I",
+            "am",
+            "pretty",
+            "sure",
+            "are",
+            "not",
+            "similar",
+            "to",
+            "Hanson",
+            "'s",
+            ".",
+            "Jeff",
+            "Richter"
+        ]
+    ]
+}

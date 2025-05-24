@@ -1,0 +1,172 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Anticipated approval is', 'indices': '20 21 22'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Kim",
+            ",",
+            "I",
+            "wanted",
+            "to",
+            "update",
+            "you",
+            "on",
+            "the",
+            "status",
+            "of",
+            "the",
+            "filing",
+            "of",
+            "the",
+            "TW/NNG",
+            "Gray",
+            "storage",
+            "point",
+            ".",
+            "Anticipated",
+            "approval",
+            "is",
+            "expected",
+            "October",
+            "31st",
+            ".",
+            "We",
+            "do",
+            "not",
+            "anticipate",
+            "any",
+            "delays",
+            "in",
+            "the",
+            "approval",
+            "because",
+            "this",
+            "filing",
+            "is",
+            "identical",
+            "to",
+            "the",
+            "last",
+            "4",
+            "filings",
+            "we",
+            "have",
+            "done",
+            ".",
+            "If",
+            "you",
+            "have",
+            "questions",
+            "please",
+            "give",
+            "me",
+            "a",
+            "call",
+            ".",
+            "Thanks",
+            ",",
+            "Preston"
+        ],
+        [
+            "FYI",
+            ",",
+            "Kim",
+            "."
+        ]
+    ]
+}

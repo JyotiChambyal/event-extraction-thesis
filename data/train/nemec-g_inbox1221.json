@@ -1,0 +1,166 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "Deliver_Data:B-Deliver members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'Please see attached', 'indices': '2 3 4'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "Kay",
+            ",",
+            "Please",
+            "see",
+            "attached",
+            ".",
+            "<",
+            "<",
+            "File",
+            ":",
+            "MarathonData.doc",
+            ">",
+            ">"
+        ],
+        [
+            "A",
+            "thousand",
+            "pardons",
+            ".",
+            "Outlook",
+            "is",
+            "not",
+            "my",
+            "favorite",
+            "for",
+            "catching",
+            "these",
+            ".",
+            "One",
+            "agreement",
+            "6-13-2000",
+            "to",
+            "6-13-2002",
+            "ENA",
+            "re",
+            "Possible",
+            "business",
+            "relationship",
+            "re",
+            "the",
+            "development",
+            "of",
+            "a",
+            "cogeneration",
+            "project",
+            "at",
+            "the",
+            "Yates",
+            "Field",
+            "in",
+            "Iraan",
+            ",",
+            "TX",
+            "Let",
+            "me",
+            "know",
+            "if",
+            "you",
+            "would",
+            "like",
+            "to",
+            "see",
+            "it",
+            ".",
+            "Kay",
+            "Young"
+        ]
+    ]
+}

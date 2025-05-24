@@ -1,0 +1,110 @@
+{
+    "events": {
+        "turn_0": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        },
+        "turn_2": {
+            "O": {
+                "labels": [
+                    [
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            [
+                ""
+            ]
+        ],
+        [
+            "===================================",
+            "Lucy",
+            "Marshall",
+            "Executive",
+            "Assistant",
+            "to",
+            "Jim",
+            "Fallon",
+            "Office",
+            "of",
+            "the",
+            "Chairman",
+            "Enron",
+            "Broadband",
+            "Services",
+            "Office",
+            "713-853-4525",
+            "Fax",
+            "713-345-7864",
+            "Cell",
+            "713-417-7802",
+            "lucy.marshall",
+            "@",
+            "enron.com"
+        ],
+        [
+            [
+                ""
+            ]
+        ]
+    ]
+}

@@ -1,0 +1,230 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Action_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Action_Data:B-Action Members",
+                        "Deliver_Action_Data:B-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "Deliver_Action_Data:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'enjoyed', 'indices': '8'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "Deliver_Data:I-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ],
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': \"Here 's mine\", 'indices': '0 1 2'}",
+                    "{'words': \"Here 's mine\", 'indices': '0 1 2'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : ",
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_2": {
+            "Request_Action": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Action:B-Action Description",
+                        "Request_Action:I-Action Description",
+                        "Request_Action:I-Action Description",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'keep in touch', 'indices': '13 14 15'}"
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "(",
+            "Just",
+            "in",
+            "case",
+            "...",
+            ")",
+            "I",
+            "have",
+            "enjoyed",
+            "working",
+            "with",
+            "all",
+            "of",
+            "you",
+            "talented",
+            "people",
+            ".",
+            "Good",
+            "Luck",
+            "&",
+            "Thanks",
+            ",",
+            "Hal",
+            "McKinney",
+            "work",
+            "-",
+            "(",
+            "713",
+            ")",
+            "345-3707",
+            "cell",
+            "-",
+            "(",
+            "281",
+            ")",
+            "773-7982",
+            "hmckinney3",
+            "@",
+            "yahoo.com"
+        ],
+        [
+            "Here",
+            "'s",
+            "mine",
+            ":",
+            "khh786",
+            "@",
+            "yahoo.com",
+            "home",
+            ":",
+            "281-238-0210",
+            "Good",
+            "luck",
+            ",",
+            "Karima"
+        ],
+        [
+            "Its",
+            "been",
+            "a",
+            "pleasure",
+            "working",
+            "with",
+            "all",
+            "of",
+            "you",
+            ".",
+            "Good",
+            "Luck",
+            "and",
+            "keep",
+            "in",
+            "touch",
+            ".",
+            "home",
+            ":",
+            "281-240-0784",
+            "cell:832-372-5167",
+            "emial",
+            ":",
+            "nrbcpa",
+            "@",
+            "aol.com"
+        ]
+    ]
+}

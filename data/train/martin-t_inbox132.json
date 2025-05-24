@@ -1,0 +1,178 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data Value",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'please find more detail', 'indices': '14 15 16 17'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "Request_Data": {
+                "labels": [
+                    [
+                        "Request_Data:Context: B-Request members",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Request_Data:Context: B-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "Request_Data:Context: I-Data idString",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'What dates', 'indices': '7 8'}"
+                ],
+                "extras": [
+                    "Query Items  : Data Value"
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "As",
+            "a",
+            "follow",
+            "up",
+            "to",
+            "the",
+            "Texas",
+            "Business",
+            "plan",
+            "submitted",
+            "on",
+            "January",
+            "7th",
+            ",",
+            "please",
+            "find",
+            "more",
+            "detail",
+            "on",
+            "our",
+            "desired",
+            "product",
+            "rollout",
+            "schedule",
+            "during",
+            "phase",
+            "1",
+            "and",
+            "2",
+            ".",
+            "If",
+            "you",
+            "have",
+            "any",
+            "questions",
+            "call",
+            "me",
+            "at",
+            "ext",
+            ".",
+            "33079",
+            ".",
+            "Tom",
+            "<",
+            "<",
+            "File",
+            ":",
+            "TXEOLRollout.xls",
+            ">",
+            ">"
+        ],
+        [
+            "Tom",
+            ",",
+            "Thanks",
+            "for",
+            "the",
+            "info",
+            ".",
+            "What",
+            "dates",
+            "are",
+            "you",
+            "associating",
+            "with",
+            "Phase",
+            "1",
+            "and",
+            "Phase",
+            "2",
+            "?",
+            "Dave"
+        ]
+    ]
+}

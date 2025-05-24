@@ -1,0 +1,138 @@
+{
+    "events": {
+        "turn_0": {
+            "Deliver_Data": {
+                "labels": [
+                    [
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "Deliver_Data:B-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "Deliver_Data:I-Data idString",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    "{'words': 'attached file', 'indices': '18 19'}"
+                ],
+                "extras": [
+                    "Deliver Confirmation : "
+                ]
+            }
+        },
+        "turn_1": {
+            "O": {
+                "labels": [
+                    [
+                        "O",
+                        "O"
+                    ]
+                ],
+                "triggers": [
+                    ""
+                ],
+                "extras": [
+                    ""
+                ]
+            }
+        }
+    },
+    "sentences": [
+        [
+            "FYI",
+            "-",
+            "(",
+            "I",
+            "think",
+            "many",
+            "people",
+            "have",
+            "already",
+            "noticed",
+            "the",
+            "new",
+            "coding",
+            "in",
+            "XMS",
+            ".",
+            ")",
+            "The",
+            "attached",
+            "file",
+            "contains",
+            "the",
+            "new",
+            "SAP",
+            "Employee",
+            "Expense",
+            "accounts",
+            "that",
+            "have",
+            "recently",
+            "been",
+            "extended",
+            "to",
+            "all",
+            "companies",
+            ".",
+            "Thanks",
+            "to",
+            "Melinda",
+            "McCarty",
+            "for",
+            "passing",
+            "along",
+            "this",
+            "information",
+            "!",
+            "!",
+            "Elizabeth"
+        ],
+        [
+            "Ginger",
+            "Dernehl"
+        ]
+    ]
+}
