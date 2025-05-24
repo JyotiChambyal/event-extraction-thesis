@@ -7,8 +7,8 @@ import torch
 from torch.utils.data import Dataset
 from transformers import PreTrainedTokenizerFast # Use PreTrainedTokenizerFast for offset_mapping robustness
 
-import config 
-from utils import map_word_labels_to_tokens
+from . import config 
+from . import map_word_labels_to_tokens
 
 class EventExtractionDataset(Dataset):
     """
